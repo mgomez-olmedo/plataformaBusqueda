@@ -1,0 +1,41 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(doc, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / doc[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-2.13/api...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/src/main/scala/auxiliar/ActionType.scala:6:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0menum ActionType:[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mScaladoc generation failed[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.Runner.run(ScaladocBridge.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.ScaladocBridge.run(ScaladocBridge.scala:21)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.AnalyzingCompiler.doc(AnalyzingCompiler.scala:154)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.AnalyzingCompiler.doc(AnalyzingCompiler.scala:133)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Doc$.$anonfun$scaladoc$1(Doc.scala:52)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Doc$.$anonfun$scaladoc$1$adapted(Doc.scala:40)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.RawCompileLike$.$anonfun$prepare$1(RawCompileLike.scala:79)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.RawCompileLike$.$anonfun$prepare$1$adapted(RawCompileLike.scala:72)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.RawCompileLike$.$anonfun$cached$4(RawCompileLike.scala:63)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.RawCompileLike$.$anonfun$cached$4$adapted(RawCompileLike.scala:61)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.RawCompileLike$.$anonfun$cached$1(RawCompileLike.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.RawCompileLike$.$anonfun$cached$1$adapted(RawCompileLike.scala:52)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$docTaskSettings$4(Defaults.scala:2159)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:833)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mdoc[0m) Scaladoc generation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 13 dic 2022 22:59:30[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

@@ -1,0 +1,10 @@
+executing main.......
+kong evaluation: List(Action(DELETION,10,-1,1.0), Action(DELETION,4,-1,4.0), Action(DELETION,9,-1,38.0), Action(DELETION,6,-1,86.0), Action(DELETION,5,-1,338.0), Action(DELETION,1,-1,818.0), Action(DELETION,8,-1,1298.0), Action(DELETION,7,-1,3254.0), Action(DELETION,2,-1,11898.0), Action(DELETION,3,-1,34938.0), Action(DELETION,14,-1,138618.0), Action(DELETION,13,-1,276866.0), Action(DELETION,12,-1,553354.0), Action(DELETION,15,-1,1106410.0), Action(DELETION,16,-1,1106426.0), Action(DELETION,17,-1,553474.0), Action(DELETION,18,-1,277066.0), Action(DELETION,11,-1,138834.0), Action(DELETION,19,-1,138842.0), Action(DELETION,20,-1,142682.0), Action(NULL,-1,-1,8426.0))
+kong estimation: 1106426.0
+nodes: 21
+links: 48
+size: 8426.0
+iterations: 55
+go loop - frontier: 19 repeated: 29 frontier insertions: 73
+max cost: 553538.0
+result:  Solution(List(Action(DELETION,20,-1,142682.0), Action(DELETION,19,-1,138842.0), Action(DELETION,11,-1,138834.0), Action(DELETION,18,-1,277066.0), Action(DELETION,16,-1,553538.0), Action(DELETION,15,-1,553522.0), Action(DELETION,12,-1,276946.0), Action(DELETION,14,-1,138698.0), Action(DELETION,17,-1,276866.0), Action(DELETION,13,-1,138618.0), Action(DELETION,3,-1,34938.0), Action(DELETION,2,-1,11898.0), Action(DELETION,7,-1,3254.0), Action(DELETION,8,-1,1298.0), Action(DELETION,1,-1,818.0), Action(DELETION,5,-1,338.0), Action(DELETION,6,-1,86.0), Action(DELETION,9,-1,38.0), Action(DELETION,4,-1,4.0), Action(DELETION,10,-1,1.0)))

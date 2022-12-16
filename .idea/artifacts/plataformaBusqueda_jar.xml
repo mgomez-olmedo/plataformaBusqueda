@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="plataformaBusqueda:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/plataformaBusqueda_jar</output-path>
+    <root id="archive" name="plataformaBusqueda.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/project/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="plataformaBusqueda" />
+      <element id="module-output" name="plataformaBusqueda-build" />
+      <element id="extracted-dir" path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.2.11/scalactic_2.13-3.2.11.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

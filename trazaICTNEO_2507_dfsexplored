@@ -1,0 +1,231 @@
+executing main.......
+kong evaluation: List(Action(DELETION,32,-1,1.0), Action(DELETION,24,-1,4.0), Action(DELETION,23,-1,8.0), Action(DELETION,22,-1,14.0), Action(DELETION,31,-1,24.0), Action(DELETION,30,-1,44.0), Action(DELETION,26,-1,84.0), Action(DELETION,29,-1,280.0), Action(DELETION,10,-1,544.0), Action(DELETION,9,-1,1571.0), Action(DELETION,33,-1,4646.0), Action(DELETION,18,-1,13868.0), Action(DELETION,20,-1,43820.0), Action(DELETION,8,-1,126782.0), Action(DELETION,35,-1,500034.0), Action(DELETION,13,-1,1495362.0), Action(REVERSAL,13,18,1499970.0), Action(DELETION,12,-1,1495366.0), Action(REVERSAL,12,18,8974150.0), Action(DELETION,25,-1,8971852.0), Action(REVERSAL,25,18,3.5901004E7), Action(REVERSAL,25,29,3.5887212E7), Action(DELETION,16,-1,3.5887208E7), Action(REVERSAL,16,18,2405480.0), Action(REVERSAL,16,29,2243112.0), Action(DELETION,27,-1,2243052.0), Action(REVERSAL,27,18,4489452.0), Action(REVERSAL,27,30,4486012.0), Action(REVERSAL,27,31,4486012.0), Action(DELETION,28,-1,4486010.0), Action(REVERSAL,28,18,8978810.0), Action(REVERSAL,28,30,8971930.0), Action(REVERSAL,28,31,8971930.0), Action(REVERSAL,28,27,8971926.0), Action(DELETION,15,-1,8971926.0), Action(REVERSAL,15,18,601494.0), Action(REVERSAL,15,30,560950.0), Action(REVERSAL,15,31,560894.0), Action(DELETION,14,-1,560866.0), Action(REVERSAL,14,18,64930.0), Action(REVERSAL,14,33,62638.0), Action(REVERSAL,14,32,62630.0), Action(DELETION,17,-1,62630.0), Action(DELETION,21,-1,2654.0), Action(DELETION,19,-1,4600.0), Action(DELETION,34,-1,4618.0), Action(DELETION,3,-1,31834.0), Action(DELETION,2,-1,31870.0), Action(DELETION,4,-1,31906.0), Action(DELETION,6,-1,6202.0), Action(DELETION,5,-1,26953.0), Action(DELETION,7,-1,130673.0), Action(DELETION,11,-1,27118.0), Action(NULL,-1,-1,6718.0))
+kong estimation: 3.5901004E7
+nodes: 35
+links: 67
+size: 6718.0
+go loop - iterations: 51 explored: 50 ops: 50 updates: 1 pruning: 0 jumped: 0 bound: 3.5901004E7
+purged: 50
+go loop - iterations: 115 explored: 38 ops: 50 updates: 2 pruning: 25 jumped: 0 bound: 2.3948592E7
+purged: 38
+go loop - iterations: 164 explored: 29 ops: 55 updates: 3 pruning: 44 jumped: 0 bound: 2.3947856E7
+purged: 29
+go loop - iterations: 227 explored: 37 ops: 55 updates: 4 pruning: 69 jumped: 0 bound: 1.1974316E7
+purged: 37
+go loop - iterations: 274 explored: 28 ops: 60 updates: 5 pruning: 87 jumped: 0 bound: 1.1973964E7
+purged: 28
+go loop - iterations: 332 explored: 36 ops: 60 updates: 6 pruning: 108 jumped: 0 bound: 5987178.0
+purged: 36
+go loop - iterations: 1296 explored: 801 ops: 59 updates: 7 pruning: 265 jumped: 5 bound: 5987018.0
+purged: 801
+go loop - iterations: 1347 explored: 30 ops: 59 updates: 8 pruning: 285 jumped: 5 bound: 5986990.0
+purged: 30
+go loop - iterations: 1746 explored: 321 ops: 58 updates: 9 pruning: 360 jumped: 7 bound: 5986638.0
+purged: 321
+go loop - iterations: 1791 explored: 25 ops: 58 updates: 10 pruning: 379 jumped: 7 bound: 5986614.0
+purged: 25
+go loop - iterations: 4798 explored: 2457 ops: 55 updates: 11 pruning: 915 jumped: 20 bound: 5985878.0
+purged: 2457
+go loop - iterations: 5014 explored: 161 ops: 54 updates: 12 pruning: 968 jumped: 21 bound: 5985872.0
+purged: 161
+go loop - iterations: 5060 explored: 21 ops: 54 updates: 13 pruning: 992 jumped: 21 bound: 5985848.0
+purged: 21
+go loop - iterations: 5562 explored: 384 ops: 50 updates: 14 pruning: 1107 jumped: 23 bound: 5984344.0
+purged: 384
+go loop - iterations: 10000 explored: 3034 ops: 37 updates: 14 pruning: 1857 jumped: 52 bound: 5981278.0
+go loop - iterations: 10701 explored: 3201 ops: 56 updates: 15 pruning: 1981 jumped: 52 bound: 5981278.0
+purged: 3101
+go loop - iterations: 10807 explored: 153 ops: 55 updates: 16 pruning: 2033 jumped: 52 bound: 3993076.0
+purged: 40
+go loop - iterations: 11648 explored: 787 ops: 59 updates: 17 pruning: 2199 jumped: 52 bound: 3992508.0
+purged: 574
+go loop - iterations: 11746 explored: 265 ops: 58 updates: 18 pruning: 2244 jumped: 52 bound: 1996562.0
+purged: 39
+go loop - iterations: 15963 explored: 2585 ops: 56 updates: 19 pruning: 2983 jumped: 64 bound: 1996282.0
+purged: 2359
+go loop - iterations: 16039 explored: 266 ops: 55 updates: 20 pruning: 3018 jumped: 64 bound: 1996278.0
+purged: 33
+go loop - iterations: 17726 explored: 1198 ops: 52 updates: 21 pruning: 3347 jumped: 70 bound: 1995710.0
+purged: 953
+go loop - iterations: 20000 explored: 1565 ops: 29 updates: 21 pruning: 3832 jumped: 70 bound: 1994566.0
+go loop - iterations: 30000 explored: 9566 ops: 22 updates: 21 pruning: 5401 jumped: 284 bound: 1994566.0
+go loop - iterations: 40000 explored: 11771 ops: 35 updates: 21 pruning: 7023 jumped: 399 bound: 1994566.0
+go loop - iterations: 50000 explored: 12162 ops: 36 updates: 21 pruning: 8716 jumped: 412 bound: 1994566.0
+go loop - iterations: 60000 explored: 12714 ops: 33 updates: 21 pruning: 10514 jumped: 530 bound: 1994566.0
+go loop - iterations: 70000 explored: 13169 ops: 30 updates: 21 pruning: 12183 jumped: 690 bound: 1994566.0
+go loop - iterations: 80000 explored: 13169 ops: 32 updates: 21 pruning: 13706 jumped: 1025 bound: 1994566.0
+go loop - iterations: 90000 explored: 13169 ops: 30 updates: 21 pruning: 15272 jumped: 1266 bound: 1994566.0
+go loop - iterations: 100000 explored: 13170 ops: 36 updates: 21 pruning: 16794 jumped: 1601 bound: 1994566.0
+go loop - iterations: 110000 explored: 13170 ops: 40 updates: 21 pruning: 18449 jumped: 1737 bound: 1994566.0
+go loop - iterations: 120000 explored: 13180 ops: 34 updates: 21 pruning: 19959 jumped: 2086 bound: 1994566.0
+go loop - iterations: 130000 explored: 13180 ops: 33 updates: 21 pruning: 21532 jumped: 2327 bound: 1994566.0
+go loop - iterations: 140000 explored: 13180 ops: 31 updates: 21 pruning: 23048 jumped: 2662 bound: 1994566.0
+go loop - iterations: 150000 explored: 13181 ops: 30 updates: 21 pruning: 24709 jumped: 2799 bound: 1994566.0
+go loop - iterations: 160000 explored: 13181 ops: 41 updates: 21 pruning: 26213 jumped: 3134 bound: 1994566.0
+go loop - iterations: 170000 explored: 13181 ops: 37 updates: 21 pruning: 27797 jumped: 3375 bound: 1994566.0
+go loop - iterations: 180000 explored: 13191 ops: 43 updates: 21 pruning: 29294 jumped: 3727 bound: 1994566.0
+go loop - iterations: 190000 explored: 13191 ops: 22 updates: 21 pruning: 30914 jumped: 3937 bound: 1994566.0
+go loop - iterations: 200000 explored: 13192 ops: 38 updates: 21 pruning: 32463 jumped: 4199 bound: 1994566.0
+go loop - iterations: 210000 explored: 13192 ops: 23 updates: 21 pruning: 33994 jumped: 4541 bound: 1994566.0
+go loop - iterations: 220000 explored: 13192 ops: 38 updates: 21 pruning: 35551 jumped: 4775 bound: 1994566.0
+go loop - iterations: 230000 explored: 13200 ops: 40 updates: 21 pruning: 37071 jumped: 5143 bound: 1994566.0
+go loop - iterations: 240000 explored: 13200 ops: 35 updates: 21 pruning: 38716 jumped: 5265 bound: 1994566.0
+go loop - iterations: 250000 explored: 13200 ops: 40 updates: 21 pruning: 40237 jumped: 5615 bound: 1994566.0
+go loop - iterations: 260000 explored: 13200 ops: 32 updates: 21 pruning: 41803 jumped: 5842 bound: 1994566.0
+go loop - iterations: 270000 explored: 13200 ops: 36 updates: 21 pruning: 43323 jumped: 6191 bound: 1994566.0
+go loop - iterations: 280000 explored: 13200 ops: 27 updates: 21 pruning: 44970 jumped: 6327 bound: 1994566.0
+go loop - iterations: 290000 explored: 13200 ops: 40 updates: 21 pruning: 46493 jumped: 6662 bound: 1994566.0
+go loop - iterations: 300000 explored: 13200 ops: 30 updates: 21 pruning: 48058 jumped: 6903 bound: 1994566.0
+go loop - iterations: 310000 explored: 13200 ops: 37 updates: 21 pruning: 49581 jumped: 7238 bound: 1994566.0
+go loop - iterations: 320000 explored: 13200 ops: 32 updates: 21 pruning: 51237 jumped: 7374 bound: 1994566.0
+go loop - iterations: 330000 explored: 13201 ops: 33 updates: 21 pruning: 52750 jumped: 7711 bound: 1994566.0
+go loop - iterations: 340000 explored: 13201 ops: 32 updates: 21 pruning: 54323 jumped: 7952 bound: 1994566.0
+go loop - iterations: 350000 explored: 13201 ops: 30 updates: 21 pruning: 55839 jumped: 8287 bound: 1994566.0
+go loop - iterations: 360000 explored: 13201 ops: 34 updates: 21 pruning: 57499 jumped: 8423 bound: 1994566.0
+go loop - iterations: 370000 explored: 13201 ops: 37 updates: 21 pruning: 59004 jumped: 8758 bound: 1994566.0
+go loop - iterations: 380000 explored: 13201 ops: 38 updates: 21 pruning: 60588 jumped: 8999 bound: 1994566.0
+go loop - iterations: 390000 explored: 13206 ops: 37 updates: 21 pruning: 62088 jumped: 9343 bound: 1994566.0
+go loop - iterations: 400000 explored: 13206 ops: 23 updates: 21 pruning: 63714 jumped: 9545 bound: 1994566.0
+go loop - iterations: 410000 explored: 13206 ops: 31 updates: 21 pruning: 65256 jumped: 9814 bound: 1994566.0
+go loop - iterations: 420000 explored: 13206 ops: 21 updates: 21 pruning: 66794 jumped: 10140 bound: 1994566.0
+go loop - iterations: 430000 explored: 13206 ops: 35 updates: 21 pruning: 68344 jumped: 10390 bound: 1994566.0
+go loop - iterations: 440000 explored: 13206 ops: 38 updates: 21 pruning: 69870 jumped: 10739 bound: 1994566.0
+go loop - iterations: 450000 explored: 13206 ops: 37 updates: 21 pruning: 71515 jumped: 10861 bound: 1994566.0
+go loop - iterations: 460000 explored: 13206 ops: 38 updates: 21 pruning: 73036 jumped: 11210 bound: 1994566.0
+go loop - iterations: 470000 explored: 13206 ops: 35 updates: 21 pruning: 74602 jumped: 11437 bound: 1994566.0
+go loop - iterations: 480000 explored: 13206 ops: 36 updates: 21 pruning: 76122 jumped: 11786 bound: 1994566.0
+go loop - iterations: 490000 explored: 13206 ops: 36 updates: 21 pruning: 77769 jumped: 11922 bound: 1994566.0
+go loop - iterations: 500000 explored: 13206 ops: 38 updates: 21 pruning: 79292 jumped: 12257 bound: 1994566.0
+go loop - iterations: 510000 explored: 13206 ops: 37 updates: 21 pruning: 80857 jumped: 12498 bound: 1994566.0
+go loop - iterations: 520000 explored: 13206 ops: 35 updates: 21 pruning: 82380 jumped: 12833 bound: 1994566.0
+go loop - iterations: 530000 explored: 13206 ops: 32 updates: 21 pruning: 84036 jumped: 12969 bound: 1994566.0
+go loop - iterations: 540000 explored: 13207 ops: 39 updates: 21 pruning: 85549 jumped: 13304 bound: 1994566.0
+go loop - iterations: 550000 explored: 13207 ops: 33 updates: 21 pruning: 87122 jumped: 13545 bound: 1994566.0
+go loop - iterations: 560000 explored: 13207 ops: 36 updates: 21 pruning: 88638 jumped: 13880 bound: 1994566.0
+go loop - iterations: 570000 explored: 13207 ops: 30 updates: 21 pruning: 90299 jumped: 14016 bound: 1994566.0
+go loop - iterations: 580000 explored: 13207 ops: 33 updates: 21 pruning: 91804 jumped: 14351 bound: 1994566.0
+go loop - iterations: 590000 explored: 13207 ops: 34 updates: 21 pruning: 93388 jumped: 14592 bound: 1994566.0
+go loop - iterations: 600000 explored: 13208 ops: 32 updates: 21 pruning: 94891 jumped: 14927 bound: 1994566.0
+go loop - iterations: 610000 explored: 13208 ops: 20 updates: 21 pruning: 96514 jumped: 15132 bound: 1994566.0
+go loop - iterations: 620000 explored: 13208 ops: 33 updates: 21 pruning: 98058 jumped: 15398 bound: 1994566.0
+go loop - iterations: 630000 explored: 13208 ops: 23 updates: 21 pruning: 99594 jumped: 15725 bound: 1994566.0
+go loop - iterations: 640000 explored: 13208 ops: 35 updates: 21 pruning: 101146 jumped: 15974 bound: 1994566.0
+go loop - iterations: 650000 explored: 13208 ops: 41 updates: 21 pruning: 102671 jumped: 16323 bound: 1994566.0
+go loop - iterations: 660000 explored: 13208 ops: 36 updates: 21 pruning: 104316 jumped: 16445 bound: 1994566.0
+go loop - iterations: 670000 explored: 13208 ops: 40 updates: 21 pruning: 105838 jumped: 16794 bound: 1994566.0
+go loop - iterations: 680000 explored: 13208 ops: 35 updates: 21 pruning: 107403 jumped: 17021 bound: 1994566.0
+go loop - iterations: 690000 explored: 13208 ops: 34 updates: 21 pruning: 108924 jumped: 17370 bound: 1994566.0
+go loop - iterations: 700000 explored: 13208 ops: 30 updates: 21 pruning: 110570 jumped: 17506 bound: 1994566.0
+go loop - iterations: 710000 explored: 13208 ops: 40 updates: 21 pruning: 112094 jumped: 17841 bound: 1994566.0
+go loop - iterations: 720000 explored: 13208 ops: 33 updates: 21 pruning: 113658 jumped: 18082 bound: 1994566.0
+go loop - iterations: 730000 explored: 13208 ops: 37 updates: 21 pruning: 115182 jumped: 18417 bound: 1994566.0
+go loop - iterations: 740000 explored: 13208 ops: 35 updates: 21 pruning: 116837 jumped: 18553 bound: 1994566.0
+go loop - iterations: 750000 explored: 13209 ops: 35 updates: 21 pruning: 118350 jumped: 18889 bound: 1994566.0
+go loop - iterations: 760000 explored: 13209 ops: 34 updates: 21 pruning: 119923 jumped: 19130 bound: 1994566.0
+go loop - iterations: 770000 explored: 13209 ops: 32 updates: 21 pruning: 121439 jumped: 19465 bound: 1994566.0
+go loop - iterations: 780000 explored: 13209 ops: 36 updates: 21 pruning: 123099 jumped: 19601 bound: 1994566.0
+go loop - iterations: 790000 explored: 13209 ops: 33 updates: 21 pruning: 124605 jumped: 19936 bound: 1994566.0
+go loop - iterations: 800000 explored: 13209 ops: 29 updates: 21 pruning: 126189 jumped: 20177 bound: 1994566.0
+go loop - iterations: 810000 explored: 13209 ops: 33 updates: 21 pruning: 127692 jumped: 20512 bound: 1994566.0
+go loop - iterations: 820000 explored: 13209 ops: 22 updates: 21 pruning: 129314 jumped: 20718 bound: 1994566.0
+go loop - iterations: 830000 explored: 13209 ops: 31 updates: 21 pruning: 130860 jumped: 20983 bound: 1994566.0
+go loop - iterations: 840000 explored: 13209 ops: 21 updates: 21 pruning: 132394 jumped: 21316 bound: 1994566.0
+go loop - iterations: 850000 explored: 13209 ops: 34 updates: 21 pruning: 133948 jumped: 21559 bound: 1994566.0
+go loop - iterations: 860000 explored: 13209 ops: 40 updates: 21 pruning: 135473 jumped: 21908 bound: 1994566.0
+go loop - iterations: 870000 explored: 13209 ops: 38 updates: 21 pruning: 137117 jumped: 22030 bound: 1994566.0
+go loop - iterations: 880000 explored: 13209 ops: 41 updates: 21 pruning: 138639 jumped: 22379 bound: 1994566.0
+go loop - iterations: 890000 explored: 13209 ops: 38 updates: 21 pruning: 140204 jumped: 22606 bound: 1994566.0
+go loop - iterations: 900000 explored: 13209 ops: 35 updates: 21 pruning: 141726 jumped: 22955 bound: 1994566.0
+go loop - iterations: 910000 explored: 13209 ops: 32 updates: 21 pruning: 143371 jumped: 23091 bound: 1994566.0
+go loop - iterations: 920000 explored: 13209 ops: 26 updates: 21 pruning: 144896 jumped: 23426 bound: 1994566.0
+go loop - iterations: 930000 explored: 13209 ops: 33 updates: 21 pruning: 146460 jumped: 23667 bound: 1994566.0
+go loop - iterations: 940000 explored: 13209 ops: 24 updates: 21 pruning: 147984 jumped: 24002 bound: 1994566.0
+go loop - iterations: 950000 explored: 13209 ops: 37 updates: 21 pruning: 149638 jumped: 24138 bound: 1994566.0
+go loop - iterations: 960000 explored: 13209 ops: 37 updates: 21 pruning: 151152 jumped: 24473 bound: 1994566.0
+go loop - iterations: 970000 explored: 13209 ops: 32 updates: 21 pruning: 152726 jumped: 24714 bound: 1994566.0
+go loop - iterations: 980000 explored: 13209 ops: 38 updates: 21 pruning: 154240 jumped: 25049 bound: 1994566.0
+go loop - iterations: 990000 explored: 13209 ops: 38 updates: 21 pruning: 155901 jumped: 25185 bound: 1994566.0
+go loop - iterations: 1000000 explored: 13209 ops: 35 updates: 21 pruning: 157407 jumped: 25520 bound: 1994566.0
+go loop - iterations: 1010000 explored: 13209 ops: 36 updates: 21 pruning: 158990 jumped: 25761 bound: 1994566.0
+go loop - iterations: 1020000 explored: 13209 ops: 38 updates: 21 pruning: 160493 jumped: 26096 bound: 1994566.0
+go loop - iterations: 1030000 explored: 13209 ops: 21 updates: 21 pruning: 162114 jumped: 26305 bound: 1994566.0
+go loop - iterations: 1040000 explored: 13209 ops: 38 updates: 21 pruning: 163661 jumped: 26567 bound: 1994566.0
+go loop - iterations: 1050000 explored: 13209 ops: 21 updates: 21 pruning: 165194 jumped: 26906 bound: 1994566.0
+go loop - iterations: 1060000 explored: 13209 ops: 39 updates: 21 pruning: 166749 jumped: 27143 bound: 1994566.0
+go loop - iterations: 1070000 explored: 13209 ops: 40 updates: 21 pruning: 168275 jumped: 27492 bound: 1994566.0
+go loop - iterations: 1080000 explored: 13209 ops: 39 updates: 21 pruning: 169919 jumped: 27614 bound: 1994566.0
+go loop - iterations: 1090000 explored: 13209 ops: 34 updates: 21 pruning: 171440 jumped: 27963 bound: 1994566.0
+go loop - iterations: 1100000 explored: 13209 ops: 35 updates: 21 pruning: 173007 jumped: 28190 bound: 1994566.0
+go loop - iterations: 1110000 explored: 13209 ops: 31 updates: 21 pruning: 174528 jumped: 28539 bound: 1994566.0
+go loop - iterations: 1120000 explored: 13209 ops: 30 updates: 21 pruning: 176174 jumped: 28675 bound: 1994566.0
+go loop - iterations: 1130000 explored: 13209 ops: 32 updates: 21 pruning: 177697 jumped: 29010 bound: 1994566.0
+go loop - iterations: 1140000 explored: 13209 ops: 34 updates: 21 pruning: 179262 jumped: 29251 bound: 1994566.0
+go loop - iterations: 1150000 explored: 13209 ops: 28 updates: 21 pruning: 180786 jumped: 29586 bound: 1994566.0
+go loop - iterations: 1160000 explored: 13209 ops: 41 updates: 21 pruning: 182440 jumped: 29722 bound: 1994566.0
+go loop - iterations: 1170000 explored: 13209 ops: 39 updates: 21 pruning: 183954 jumped: 30057 bound: 1994566.0
+go loop - iterations: 1180000 explored: 13209 ops: 37 updates: 21 pruning: 185527 jumped: 30298 bound: 1994566.0
+go loop - iterations: 1190000 explored: 13209 ops: 36 updates: 21 pruning: 187043 jumped: 30633 bound: 1994566.0
+go loop - iterations: 1200000 explored: 13209 ops: 31 updates: 21 pruning: 188704 jumped: 30769 bound: 1994566.0
+go loop - iterations: 1210000 explored: 13209 ops: 36 updates: 21 pruning: 190209 jumped: 31104 bound: 1994566.0
+go loop - iterations: 1220000 explored: 13209 ops: 31 updates: 21 pruning: 191793 jumped: 31345 bound: 1994566.0
+go loop - iterations: 1230000 explored: 13209 ops: 43 updates: 21 pruning: 193294 jumped: 31680 bound: 1994566.0
+go loop - iterations: 1240000 explored: 13209 ops: 22 updates: 21 pruning: 194914 jumped: 31890 bound: 1994566.0
+go loop - iterations: 1250000 explored: 13209 ops: 25 updates: 21 pruning: 196464 jumped: 32151 bound: 1994566.0
+go loop - iterations: 1260000 explored: 13209 ops: 21 updates: 21 pruning: 197994 jumped: 32494 bound: 1994566.0
+go loop - iterations: 1270000 explored: 13209 ops: 40 updates: 21 pruning: 199551 jumped: 32727 bound: 1994566.0
+go loop - iterations: 1280000 explored: 13209 ops: 35 updates: 21 pruning: 201076 jumped: 33076 bound: 1994566.0
+go loop - iterations: 1290000 explored: 13209 ops: 40 updates: 21 pruning: 202721 jumped: 33198 bound: 1994566.0
+go loop - iterations: 1300000 explored: 13209 ops: 34 updates: 21 pruning: 204242 jumped: 33547 bound: 1994566.0
+go loop - iterations: 1310000 explored: 13209 ops: 36 updates: 21 pruning: 205808 jumped: 33774 bound: 1994566.0
+go loop - iterations: 1320000 explored: 13209 ops: 42 updates: 21 pruning: 207328 jumped: 34123 bound: 1994566.0
+go loop - iterations: 1330000 explored: 13209 ops: 35 updates: 21 pruning: 208975 jumped: 34259 bound: 1994566.0
+go loop - iterations: 1340000 explored: 13209 ops: 30 updates: 21 pruning: 210500 jumped: 34594 bound: 1994566.0
+go loop - iterations: 1350000 explored: 13209 ops: 38 updates: 21 pruning: 212064 jumped: 34835 bound: 1994566.0
+go loop - iterations: 1360000 explored: 13209 ops: 29 updates: 21 pruning: 213588 jumped: 35170 bound: 1994566.0
+go loop - iterations: 1370000 explored: 13209 ops: 31 updates: 21 pruning: 215242 jumped: 35306 bound: 1994566.0
+go loop - iterations: 1380000 explored: 13209 ops: 37 updates: 21 pruning: 216755 jumped: 35641 bound: 1994566.0
+go loop - iterations: 1390000 explored: 13209 ops: 41 updates: 21 pruning: 218328 jumped: 35882 bound: 1994566.0
+go loop - iterations: 1400000 explored: 13209 ops: 34 updates: 21 pruning: 219844 jumped: 36217 bound: 1994566.0
+go loop - iterations: 1410000 explored: 13209 ops: 35 updates: 21 pruning: 221505 jumped: 36353 bound: 1994566.0
+go loop - iterations: 1420000 explored: 13209 ops: 38 updates: 21 pruning: 223010 jumped: 36688 bound: 1994566.0
+go loop - iterations: 1430000 explored: 13209 ops: 36 updates: 21 pruning: 224594 jumped: 36929 bound: 1994566.0
+go loop - iterations: 1440000 explored: 13209 ops: 39 updates: 21 pruning: 226097 jumped: 37264 bound: 1994566.0
+go loop - iterations: 1450000 explored: 13209 ops: 25 updates: 21 pruning: 227714 jumped: 37476 bound: 1994566.0
+go loop - iterations: 1460000 explored: 13209 ops: 35 updates: 21 pruning: 229264 jumped: 37735 bound: 1994566.0
+go loop - iterations: 1470000 explored: 13209 ops: 21 updates: 21 pruning: 230794 jumped: 38083 bound: 1994566.0
+go loop - iterations: 1480000 explored: 13209 ops: 41 updates: 21 pruning: 232353 jumped: 38311 bound: 1994566.0
+go loop - iterations: 1490000 explored: 13209 ops: 34 updates: 21 pruning: 233878 jumped: 38660 bound: 1994566.0
+go loop - iterations: 1500000 explored: 13209 ops: 39 updates: 21 pruning: 235522 jumped: 38782 bound: 1994566.0
+go loop - iterations: 1510000 explored: 13209 ops: 30 updates: 21 pruning: 237045 jumped: 39131 bound: 1994566.0
+go loop - iterations: 1520000 explored: 13209 ops: 37 updates: 21 pruning: 238610 jumped: 39358 bound: 1994566.0
+go loop - iterations: 1530000 explored: 13209 ops: 41 updates: 21 pruning: 240130 jumped: 39707 bound: 1994566.0
+go loop - iterations: 1540000 explored: 13209 ops: 39 updates: 21 pruning: 241776 jumped: 39843 bound: 1994566.0
+go loop - iterations: 1550000 explored: 13209 ops: 33 updates: 21 pruning: 243301 jumped: 40178 bound: 1994566.0
+go loop - iterations: 1560000 explored: 13209 ops: 28 updates: 21 pruning: 244866 jumped: 40419 bound: 1994566.0
+go loop - iterations: 1570000 explored: 13209 ops: 38 updates: 21 pruning: 246388 jumped: 40754 bound: 1994566.0
+go loop - iterations: 1580000 explored: 13209 ops: 35 updates: 21 pruning: 248043 jumped: 40890 bound: 1994566.0
+go loop - iterations: 1590000 explored: 13210 ops: 34 updates: 21 pruning: 249558 jumped: 41225 bound: 1994566.0
+go loop - iterations: 1600000 explored: 13210 ops: 37 updates: 21 pruning: 251131 jumped: 41466 bound: 1994566.0
+go loop - iterations: 1610000 explored: 13210 ops: 36 updates: 21 pruning: 252646 jumped: 41801 bound: 1994566.0
+go loop - iterations: 1620000 explored: 13210 ops: 37 updates: 21 pruning: 254307 jumped: 41937 bound: 1994566.0
+go loop - iterations: 1630000 explored: 13210 ops: 41 updates: 21 pruning: 255811 jumped: 42272 bound: 1994566.0
+go loop - iterations: 1640000 explored: 13210 ops: 37 updates: 21 pruning: 257396 jumped: 42513 bound: 1994566.0
+go loop - iterations: 1650000 explored: 13210 ops: 31 updates: 21 pruning: 258898 jumped: 42848 bound: 1994566.0
+go loop - iterations: 1660000 explored: 13210 ops: 22 updates: 21 pruning: 260514 jumped: 43063 bound: 1994566.0
+go loop - iterations: 1670000 explored: 13210 ops: 35 updates: 21 pruning: 262066 jumped: 43319 bound: 1994566.0
+go loop - iterations: 1680000 explored: 13210 ops: 28 updates: 21 pruning: 263594 jumped: 43668 bound: 1994566.0
+go loop - iterations: 1690000 explored: 13210 ops: 35 updates: 21 pruning: 265154 jumped: 43895 bound: 1994566.0
+go loop - iterations: 1700000 explored: 13210 ops: 36 updates: 21 pruning: 266680 jumped: 44244 bound: 1994566.0
+go loop - iterations: 1710000 explored: 13210 ops: 37 updates: 21 pruning: 268324 jumped: 44366 bound: 1994566.0
+go loop - iterations: 1720000 explored: 13210 ops: 32 updates: 21 pruning: 269846 jumped: 44715 bound: 1994566.0
+go loop - iterations: 1730000 explored: 13210 ops: 37 updates: 21 pruning: 271412 jumped: 44942 bound: 1994566.0
+go loop - iterations: 1740000 explored: 13210 ops: 36 updates: 21 pruning: 272933 jumped: 45291 bound: 1994566.0
+go loop - iterations: 1750000 explored: 13210 ops: 35 updates: 21 pruning: 274579 jumped: 45427 bound: 1994566.0
+go loop - iterations: 1760000 explored: 13210 ops: 37 updates: 21 pruning: 276102 jumped: 45762 bound: 1994566.0
+go loop - iterations: 1770000 explored: 13210 ops: 30 updates: 21 pruning: 277668 jumped: 46003 bound: 1994566.0
+go loop - iterations: 1780000 explored: 13210 ops: 36 updates: 21 pruning: 279190 jumped: 46338 bound: 1994566.0
+go loop - iterations: 1790000 explored: 13210 ops: 31 updates: 21 pruning: 280846 jumped: 46474 bound: 1994566.0
+iterations: 1797817
+search end -> updates: 21 jumped: 46736 pruning: 282044 bound: 1994566.0
+max cost: 1994566.0
+result:  Solution(List(Action(DELETION,4,-1,33502.0), Action(DELETION,2,-1,33466.0), Action(DELETION,3,-1,33430.0), Action(DELETION,7,-1,162905.0), Action(DELETION,5,-1,260065.0), Action(DELETION,6,-1,156370.0), Action(DELETION,11,-1,31834.0), Action(DELETION,34,-1,4618.0), Action(DELETION,19,-1,4600.0), Action(DELETION,17,-1,124840.0), Action(DELETION,21,-1,62630.0), Action(REVERSAL,12,18,62672.0), Action(DELETION,12,-1,31280.0), Action(REVERSAL,13,18,31372.0), Action(DELETION,13,-1,31276.0), Action(REVERSAL,15,31,31304.0), Action(REVERSAL,15,30,31360.0), Action(REVERSAL,15,18,33552.0), Action(DELETION,15,-1,498576.0), Action(REVERSAL,27,31,498580.0), Action(REVERSAL,27,30,498580.0), Action(REVERSAL,27,18,498932.0), Action(DELETION,27,-1,249332.0), Action(REVERSAL,28,31,249334.0), Action(REVERSAL,28,30,249334.0), Action(REVERSAL,28,18,249510.0), Action(DELETION,28,-1,124710.0), Action(REVERSAL,16,29,124770.0), Action(REVERSAL,16,18,133730.0), Action(DELETION,16,-1,1993826.0), Action(REVERSAL,25,29,1993830.0), Action(REVERSAL,25,18,1994566.0), Action(DELETION,25,-1,498502.0), Action(REVERSAL,14,18,498884.0), Action(REVERSAL,14,32,500416.0), Action(REVERSAL,14,33,505786.0), Action(DELETION,14,-1,1496506.0), Action(DELETION,35,-1,501178.0), Action(DELETION,8,-1,127926.0), Action(DELETION,9,-1,44979.0), Action(DELETION,10,-1,17328.0), Action(DELETION,20,-1,8094.0), Action(DELETION,22,-1,5788.0), Action(DELETION,33,-1,1948.0), Action(DELETION,32,-1,796.0), Action(DELETION,18,-1,156.0), Action(DELETION,23,-1,90.0), Action(DELETION,29,-1,50.0), Action(DELETION,26,-1,22.0), Action(DELETION,30,-1,10.0), Action(DELETION,31,-1,4.0), Action(DELETION,24,-1,1.0)))

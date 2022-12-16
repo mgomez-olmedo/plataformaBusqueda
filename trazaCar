@@ -1,0 +1,10 @@
+executing main.......
+kong evaluation: List(Action(DELETION,1,-1,1.0), Action(DELETION,4,-1,4.0), Action(DELETION,2,-1,32.0), Action(DELETION,5,-1,48.0), Action(DELETION,3,-1,208.0), Action(DELETION,6,-1,304.0), Action(REVERSAL,6,5,336.0), Action(REVERSAL,6,4,272.0), Action(NULL,-1,-1,258.0))
+kong estimation: 336.0
+nodes: 7
+links: 16
+size: 258.0
+iterations: 9
+go loop - frontier: 0 repeated: 0 frontier insertions: 8
+max cost: 336.0
+result:  Solution(List(Action(REVERSAL,6,4,272.0), Action(REVERSAL,6,5,336.0), Action(DELETION,6,-1,304.0), Action(DELETION,3,-1,208.0), Action(DELETION,5,-1,48.0), Action(DELETION,2,-1,32.0), Action(DELETION,4,-1,4.0), Action(DELETION,1,-1,1.0)))

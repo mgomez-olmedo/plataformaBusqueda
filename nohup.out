@@ -1,0 +1,646 @@
+executing main.......
+kong evaluation: List(Action(DELETION,31,-1,1.0), Action(DELETION,29,-1,4.0), Action(DELETION,28,-1,8.0), Action(DELETION,27,-1,14.0), Action(DELETION,33,-1,24.0), Action(DELETION,36,-1,44.0), Action(DELETION,35,-1,144.0), Action(DELETION,34,-1,280.0), Action(DELETION,30,-1,544.0), Action(DELETION,32,-1,1574.0), Action(DELETION,22,-1,4664.0), Action(DELETION,25,-1,20792.0), Action(DELETION,26,-1,69176.0), Action(DELETION,10,-1,110660.0), Action(DELETION,9,-1,276551.0), Action(DELETION,8,-1,774218.0), Action(DELETION,41,-1,3013710.0), Action(DELETION,24,-1,1.4957646E7), Action(DELETION,23,-1,2.9887568E7), Action(DELETION,40,-1,5.974742E7), Action(DELETION,15,-1,5.3750486E8), Action(REVERSAL,15,25,5.37546332E8), Action(REVERSAL,15,22,5.37518684E8), Action(DELETION,18,-1,5.37504864E8), Action(REVERSAL,18,25,1.075023456E9), Action(REVERSAL,18,22,1.075016544E9), Action(DELETION,17,-1,1.075009634E9), Action(REVERSAL,17,25,2.150046818E9), Action(REVERSAL,17,22,2.150032994E9), Action(DELETION,16,-1,2.150019172E9), Action(REVERSAL,16,25,4.30009354E9), Action(REVERSAL,16,22,4.300065892E9), Action(DELETION,14,-1,4.300038246E9), Action(REVERSAL,14,25,8.600186982E9), Action(REVERSAL,14,22,8.600131686E9), Action(DELETION,13,-1,8.600076392E9), Action(REVERSAL,13,25,1.7200373864E10), Action(REVERSAL,13,22,1.7200263272E10), Action(DELETION,37,-1,1.7200152682E10), Action(REVERSAL,37,25,6.880061041E10), Action(REVERSAL,37,22,6.8800831594E10), Action(REVERSAL,37,35,6.8800610442E10), Action(DELETION,21,-1,6.8800610438E10), Action(REVERSAL,21,25,4.308664454E9), Action(REVERSAL,21,22,4.30263719E9), Action(REVERSAL,21,35,4.300038342E9), Action(DELETION,39,-1,4.300038282E9), Action(REVERSAL,39,25,8.600187018E9), Action(REVERSAL,39,22,8.600131722E9), Action(REVERSAL,39,34,8.600076442E9), Action(REVERSAL,39,33,8.600076442E9), Action(DELETION,38,-1,8.60007644E9), Action(REVERSAL,38,25,1.7200373912E10), Action(REVERSAL,38,22,1.720026332E10), Action(REVERSAL,38,34,1.720015276E10), Action(REVERSAL,38,33,1.720015276E10), Action(REVERSAL,38,39,1.7200152756E10), Action(DELETION,20,-1,1.7200152756E10), Action(REVERSAL,20,25,1.07716626E9), Action(REVERSAL,20,22,1.075659444E9), Action(REVERSAL,20,34,1.07500978E9), Action(REVERSAL,20,33,1.075009724E9), Action(DELETION,19,-1,1.075009696E9), Action(REVERSAL,19,25,1.340944E7), Action(REVERSAL,19,22,1.3314208E7), Action(REVERSAL,19,32,1.3274308E7), Action(REVERSAL,19,30,1.3274272E7), Action(REVERSAL,19,31,1.3274264E7), Action(DELETION,12,-1,1.3274264E7), Action(DELETION,4,-1,82520.0), Action(DELETION,3,-1,471392.0), Action(DELETION,2,-1,938024.0), Action(DELETION,6,-1,160640.0), Action(DELETION,11,-1,199700.0), Action(DELETION,7,-1,113525.0), Action(DELETION,5,-1,32625.0), Action(NULL,-1,-1,11150.0))
+kong estimation: 6.8800831594E10
+nodes: 41
+links: 103
+size: 11150.0
+go loop - iterations: 73 explored: 72 ops: 72 updates: 1 pruning: 0 jumped: 0 bound: 6.8800831594E10
+purged: 72
+go loop - iterations: 129 explored: 32 ops: 72 updates: 2 pruning: 23 jumped: 0 bound: 8.600279864E9
+purged: 32
+go loop - iterations: 186 explored: 34 ops: 72 updates: 3 pruning: 45 jumped: 0 bound: 8.60026604E9
+purged: 34
+go loop - iterations: 238 explored: 30 ops: 72 updates: 4 pruning: 66 jumped: 0 bound: 8.600263736E9
+purged: 30
+go loop - iterations: 291 explored: 31 ops: 72 updates: 5 pruning: 87 jumped: 0 bound: 8.600262968E9
+purged: 31
+go loop - iterations: 351 explored: 39 ops: 80 updates: 6 pruning: 107 jumped: 0 bound: 8.600262232E9
+purged: 39
+go loop - iterations: 406 explored: 31 ops: 80 updates: 7 pruning: 130 jumped: 0 bound: 4.300139956E9
+purged: 31
+go loop - iterations: 462 explored: 33 ops: 80 updates: 8 pruning: 152 jumped: 0 bound: 4.300133044E9
+purged: 33
+go loop - iterations: 513 explored: 29 ops: 80 updates: 9 pruning: 173 jumped: 0 bound: 4.300131892E9
+purged: 29
+go loop - iterations: 565 explored: 30 ops: 80 updates: 10 pruning: 194 jumped: 0 bound: 4.300131508E9
+purged: 30
+go loop - iterations: 623 explored: 37 ops: 87 updates: 11 pruning: 214 jumped: 0 bound: 4.300131156E9
+purged: 37
+go loop - iterations: 673 explored: 30 ops: 87 updates: 12 pruning: 233 jumped: 0 bound: 2.150070002E9
+purged: 30
+go loop - iterations: 724 explored: 32 ops: 87 updates: 13 pruning: 251 jumped: 0 bound: 2.150066546E9
+purged: 32
+go loop - iterations: 770 explored: 28 ops: 87 updates: 14 pruning: 268 jumped: 0 bound: 2.15006597E9
+purged: 28
+go loop - iterations: 817 explored: 29 ops: 87 updates: 15 pruning: 285 jumped: 0 bound: 2.150065778E9
+purged: 29
+go loop - iterations: 1110 explored: 243 ops: 87 updates: 16 pruning: 334 jumped: 0 bound: 2.150065618E9
+purged: 243
+go loop - iterations: 1166 explored: 36 ops: 87 updates: 17 pruning: 353 jumped: 0 bound: 2.150059634E9
+purged: 36
+go loop - iterations: 1212 explored: 28 ops: 87 updates: 18 pruning: 370 jumped: 0 bound: 2.150059058E9
+purged: 28
+go loop - iterations: 1259 explored: 29 ops: 87 updates: 19 pruning: 387 jumped: 0 bound: 2.150058866E9
+purged: 29
+go loop - iterations: 1547 explored: 239 ops: 87 updates: 20 pruning: 435 jumped: 0 bound: 2.150058706E9
+purged: 239
+go loop - iterations: 1607 explored: 39 ops: 87 updates: 21 pruning: 455 jumped: 0 bound: 2.15004581E9
+purged: 39
+go loop - iterations: 1653 explored: 28 ops: 87 updates: 22 pruning: 472 jumped: 0 bound: 2.150045234E9
+purged: 28
+go loop - iterations: 1700 explored: 29 ops: 87 updates: 23 pruning: 489 jumped: 0 bound: 2.150045042E9
+purged: 29
+go loop - iterations: 2969 explored: 1085 ops: 87 updates: 24 pruning: 668 jumped: 4 bound: 2.150044882E9
+purged: 1085
+go loop - iterations: 3022 explored: 34 ops: 87 updates: 25 pruning: 686 jumped: 4 bound: 2.150044082E9
+purged: 34
+go loop - iterations: 3069 explored: 29 ops: 87 updates: 26 pruning: 703 jumped: 4 bound: 2.15004389E9
+purged: 29
+go loop - iterations: 3609 explored: 456 ops: 87 updates: 27 pruning: 785 jumped: 5 bound: 2.15004373E9
+purged: 456
+go loop - iterations: 3668 explored: 39 ops: 87 updates: 28 pruning: 804 jumped: 5 bound: 2.150041778E9
+purged: 39
+go loop - iterations: 3715 explored: 29 ops: 87 updates: 29 pruning: 821 jumped: 5 bound: 2.150041586E9
+purged: 29
+go loop - iterations: 4752 explored: 885 ops: 87 updates: 30 pruning: 969 jumped: 8 bound: 2.150041426E9
+purged: 885
+go loop - iterations: 4807 explored: 36 ops: 87 updates: 31 pruning: 987 jumped: 8 bound: 2.150041202E9
+purged: 36
+go loop - iterations: 5113 explored: 254 ops: 87 updates: 32 pruning: 1038 jumped: 8 bound: 2.150041042E9
+purged: 254
+go loop - iterations: 5175 explored: 42 ops: 87 updates: 33 pruning: 1057 jumped: 8 bound: 2.150040434E9
+purged: 42
+go loop - iterations: 6268 explored: 927 ops: 86 updates: 34 pruning: 1218 jumped: 12 bound: 2.150040274E9
+purged: 927
+go loop - iterations: 6323 explored: 34 ops: 86 updates: 35 pruning: 1238 jumped: 12 bound: 2.150040246E9
+purged: 34
+go loop - iterations: 6571 explored: 201 ops: 85 updates: 36 pruning: 1284 jumped: 12 bound: 2.150039894E9
+purged: 201
+go loop - iterations: 6620 explored: 27 ops: 85 updates: 37 pruning: 1305 jumped: 12 bound: 2.15003987E9
+purged: 27
+go loop - iterations: 10000 explored: 2818 ops: 56 updates: 37 pruning: 1860 jumped: 18 bound: 2.150039134E9
+go loop - iterations: 16376 explored: 8234 ops: 87 updates: 38 pruning: 2800 jumped: 38 bound: 2.150039134E9
+purged: 8234
+go loop - iterations: 16440 explored: 43 ops: 87 updates: 39 pruning: 2820 jumped: 38 bound: 2.15003717E9
+purged: 43
+go loop - iterations: 16487 explored: 29 ops: 87 updates: 40 pruning: 2837 jumped: 38 bound: 2.150036978E9
+purged: 29
+go loop - iterations: 18248 explored: 1510 ops: 87 updates: 41 pruning: 3081 jumped: 44 bound: 2.150036818E9
+purged: 1510
+go loop - iterations: 18303 explored: 36 ops: 87 updates: 42 pruning: 3099 jumped: 44 bound: 2.150036594E9
+purged: 36
+go loop - iterations: 18851 explored: 463 ops: 87 updates: 43 pruning: 3182 jumped: 45 bound: 2.150036434E9
+purged: 463
+go loop - iterations: 18913 explored: 42 ops: 87 updates: 44 pruning: 3201 jumped: 45 bound: 2.150035826E9
+purged: 42
+go loop - iterations: 20000 explored: 921 ops: 80 updates: 44 pruning: 3362 jumped: 49 bound: 2.150035666E9
+go loop - iterations: 20006 explored: 927 ops: 86 updates: 45 pruning: 3362 jumped: 49 bound: 2.150035666E9
+purged: 927
+go loop - iterations: 20061 explored: 34 ops: 86 updates: 46 pruning: 3382 jumped: 49 bound: 2.150035638E9
+purged: 34
+go loop - iterations: 20309 explored: 201 ops: 85 updates: 47 pruning: 3428 jumped: 49 bound: 2.150035286E9
+purged: 201
+go loop - iterations: 20358 explored: 27 ops: 85 updates: 48 pruning: 3449 jumped: 49 bound: 2.150035262E9
+purged: 27
+go loop - iterations: 30000 explored: 8132 ops: 49 updates: 48 pruning: 4932 jumped: 75 bound: 2.150034526E9
+go loop - iterations: 40000 explored: 16666 ops: 54 updates: 48 pruning: 6362 jumped: 111 bound: 2.150034526E9
+go loop - iterations: 50000 explored: 25122 ops: 61 updates: 48 pruning: 7878 jumped: 139 bound: 2.150034526E9
+go loop - iterations: 60000 explored: 33642 ops: 50 updates: 48 pruning: 9322 jumped: 175 bound: 2.150034526E9
+go loop - iterations: 70000 explored: 42112 ops: 47 updates: 48 pruning: 10823 jumped: 204 bound: 2.150034526E9
+go loop - iterations: 80000 explored: 50617 ops: 44 updates: 48 pruning: 12284 jumped: 238 bound: 2.150034526E9
+go loop - iterations: 83467 explored: 53558 ops: 87 updates: 49 pruning: 12801 jumped: 247 bound: 2.150034526E9
+purged: 53558
+go loop - iterations: 83535 explored: 47 ops: 87 updates: 50 pruning: 12821 jumped: 247 bound: 2.15003429E9
+purged: 47
+go loop - iterations: 85629 explored: 1793 ops: 86 updates: 51 pruning: 13113 jumped: 255 bound: 2.15003413E9
+purged: 1793
+go loop - iterations: 85690 explored: 39 ops: 86 updates: 52 pruning: 13134 jumped: 255 bound: 2.150034102E9
+purged: 39
+go loop - iterations: 86135 explored: 370 ops: 85 updates: 53 pruning: 13207 jumped: 256 bound: 2.15003375E9
+purged: 370
+go loop - iterations: 86190 explored: 32 ops: 85 updates: 54 pruning: 13229 jumped: 256 bound: 2.150033726E9
+purged: 32
+go loop - iterations: 90000 explored: 3189 ops: 49 updates: 54 pruning: 13841 jumped: 264 bound: 2.15003299E9
+go loop - iterations: 100000 explored: 11694 ops: 45 updates: 54 pruning: 15302 jumped: 298 bound: 2.15003299E9
+go loop - iterations: 110000 explored: 20179 ops: 62 updates: 54 pruning: 16787 jumped: 328 bound: 2.15003299E9
+go loop - iterations: 120000 explored: 28665 ops: 46 updates: 54 pruning: 18268 jumped: 361 bound: 2.15003299E9
+go loop - iterations: 130000 explored: 37169 ops: 44 updates: 54 pruning: 19732 jumped: 393 bound: 2.15003299E9
+go loop - iterations: 140000 explored: 45639 ops: 46 updates: 54 pruning: 21231 jumped: 424 bound: 2.15003299E9
+go loop - iterations: 150000 explored: 54160 ops: 64 updates: 54 pruning: 22677 jumped: 457 bound: 2.15003299E9
+go loop - iterations: 160000 explored: 62611 ops: 52 updates: 54 pruning: 24196 jumped: 487 bound: 2.15003299E9
+go loop - iterations: 170000 explored: 71027 ops: 56 updates: 54 pruning: 25738 jumped: 529 bound: 2.15003299E9
+go loop - iterations: 180000 explored: 79397 ops: 53 updates: 54 pruning: 27330 jumped: 567 bound: 2.15003299E9
+go loop - iterations: 184090 explored: 82814 ops: 77 updates: 55 pruning: 27984 jumped: 586 bound: 2.15003299E9
+purged: 82814
+go loop - iterations: 184144 explored: 25 ops: 77 updates: 56 pruning: 28012 jumped: 586 bound: 2.150032967E9
+purged: 25
+go loop - iterations: 187328 explored: 2598 ops: 73 updates: 57 pruning: 28582 jumped: 601 bound: 2.150028391E9
+purged: 2598
+go loop - iterations: 190000 explored: 2184 ops: 58 updates: 57 pruning: 29057 jumped: 613 bound: 2.150019193E9
+go loop - iterations: 200000 explored: 10522 ops: 41 updates: 57 pruning: 30675 jumped: 657 bound: 2.150019193E9
+go loop - iterations: 210000 explored: 18939 ops: 42 updates: 57 pruning: 32215 jumped: 700 bound: 2.150019193E9
+go loop - iterations: 219578 explored: 26885 ops: 73 updates: 58 pruning: 33805 jumped: 742 bound: 2.150019193E9
+purged: 26885
+go loop - iterations: 220000 explored: 320 ops: 40 updates: 58 pruning: 33906 jumped: 742 bound: 2.150019192E9
+go loop - iterations: 230000 explored: 8658 ops: 54 updates: 58 pruning: 35520 jumped: 790 bound: 2.150019192E9
+go loop - iterations: 240000 explored: 17024 ops: 43 updates: 58 pruning: 37115 jumped: 829 bound: 2.150019192E9
+go loop - iterations: 250000 explored: 25384 ops: 44 updates: 58 pruning: 38712 jumped: 872 bound: 2.150019192E9
+go loop - iterations: 260000 explored: 33729 ops: 42 updates: 58 pruning: 40316 jumped: 923 bound: 2.150019192E9
+go loop - iterations: 270000 explored: 42359 ops: 64 updates: 58 pruning: 41645 jumped: 964 bound: 2.150019192E9
+go loop - iterations: 280000 explored: 50990 ops: 42 updates: 58 pruning: 42972 jumped: 1006 bound: 2.150019192E9
+go loop - iterations: 290000 explored: 59575 ops: 40 updates: 58 pruning: 44342 jumped: 1051 bound: 2.150019192E9
+go loop - iterations: 299134 explored: 67102 ops: 80 updates: 59 pruning: 45880 jumped: 1120 bound: 2.150019192E9
+purged: 67102
+go loop - iterations: 299177 explored: 25 ops: 80 updates: 60 pruning: 45897 jumped: 1120 bound: 1.075035024E9
+purged: 25
+go loop - iterations: 299219 explored: 24 ops: 80 updates: 61 pruning: 45914 jumped: 1120 bound: 1.075033296E9
+purged: 24
+go loop - iterations: 299260 explored: 23 ops: 80 updates: 62 pruning: 45931 jumped: 1120 bound: 1.07502984E9
+purged: 23
+go loop - iterations: 299382 explored: 85 ops: 80 updates: 63 pruning: 45967 jumped: 1120 bound: 1.075022928E9
+purged: 85
+go loop - iterations: 299451 explored: 45 ops: 80 updates: 64 pruning: 45990 jumped: 1120 bound: 1.07502264E9
+purged: 45
+go loop - iterations: 299509 explored: 36 ops: 80 updates: 65 pruning: 46011 jumped: 1120 bound: 1.075022064E9
+purged: 36
+go loop - iterations: 299558 explored: 29 ops: 80 updates: 66 pruning: 46030 jumped: 1120 bound: 1.075020912E9
+purged: 29
+go loop - iterations: 300000 explored: 319 ops: 56 updates: 66 pruning: 46152 jumped: 1120 bound: 1.075018608E9
+go loop - iterations: 300131 explored: 426 ops: 80 updates: 67 pruning: 46176 jumped: 1120 bound: 1.075018608E9
+purged: 426
+go loop - iterations: 300642 explored: 392 ops: 80 updates: 68 pruning: 46294 jumped: 1120 bound: 1.075018512E9
+purged: 392
+go loop - iterations: 301019 explored: 290 ops: 85 updates: 69 pruning: 46380 jumped: 1120 bound: 1.075018418E9
+purged: 290
+go loop - iterations: 304210 explored: 2429 ops: 85 updates: 70 pruning: 47141 jumped: 1120 bound: 9.5558599E8
+purged: 2392
+go loop - iterations: 306101 explored: 1462 ops: 82 updates: 71 pruning: 47606 jumped: 1120 bound: 9.55584454E8
+purged: 1423
+go loop - iterations: 310000 explored: 3366 ops: 58 updates: 71 pruning: 48177 jumped: 1120 bound: 9.5558331E8
+go loop - iterations: 320000 explored: 11962 ops: 57 updates: 71 pruning: 49581 jumped: 1120 bound: 9.5558331E8
+go loop - iterations: 330000 explored: 20247 ops: 57 updates: 71 pruning: 51296 jumped: 1120 bound: 9.5558331E8
+go loop - iterations: 330603 explored: 20731 ops: 84 updates: 72 pruning: 51415 jumped: 1120 bound: 9.5558331E8
+purged: 20691
+go loop - iterations: 330642 explored: 64 ops: 84 updates: 73 pruning: 51429 jumped: 1120 bound: 5.37517534E8
+purged: 24
+go loop - iterations: 330680 explored: 63 ops: 84 updates: 74 pruning: 51443 jumped: 1120 bound: 5.3751667E8
+purged: 23
+go loop - iterations: 330717 explored: 62 ops: 84 updates: 75 pruning: 51457 jumped: 1120 bound: 5.37514942E8
+purged: 22
+go loop - iterations: 330835 explored: 124 ops: 84 updates: 76 pruning: 51490 jumped: 1120 bound: 5.37511486E8
+purged: 84
+go loop - iterations: 330900 explored: 84 ops: 84 updates: 77 pruning: 51510 jumped: 1120 bound: 5.37511342E8
+purged: 44
+go loop - iterations: 330954 explored: 75 ops: 84 updates: 78 pruning: 51528 jumped: 1120 bound: 5.37511054E8
+purged: 35
+go loop - iterations: 330999 explored: 68 ops: 84 updates: 79 pruning: 51544 jumped: 1120 bound: 5.37510478E8
+purged: 28
+go loop - iterations: 331568 explored: 465 ops: 84 updates: 80 pruning: 51687 jumped: 1120 bound: 5.37509326E8
+purged: 425
+go loop - iterations: 332075 explored: 431 ops: 84 updates: 81 pruning: 51802 jumped: 1120 bound: 5.37509278E8
+purged: 391
+go loop - iterations: 340000 explored: 6168 ops: 58 updates: 81 pruning: 53592 jumped: 1126 bound: 5.37509232E8
+go loop - iterations: 350000 explored: 13935 ops: 57 updates: 81 pruning: 55823 jumped: 1128 bound: 5.37509232E8
+go loop - iterations: 350386 explored: 14243 ops: 84 updates: 82 pruning: 55901 jumped: 1128 bound: 5.37509232E8
+purged: 14203
+go loop - iterations: 351377 explored: 795 ops: 84 updates: 83 pruning: 56136 jumped: 1128 bound: 5.37509182E8
+purged: 755
+go loop - iterations: 356884 explored: 4271 ops: 82 updates: 84 pruning: 57405 jumped: 1134 bound: 5.37509136E8
+purged: 4231
+go loop - iterations: 360000 explored: 2523 ops: 55 updates: 84 pruning: 58031 jumped: 1140 bound: 5.37509048E8
+go loop - iterations: 370000 explored: 10944 ops: 52 updates: 84 pruning: 59610 jumped: 1140 bound: 5.37509048E8
+go loop - iterations: 380000 explored: 18717 ops: 61 updates: 84 pruning: 61837 jumped: 1140 bound: 5.37509048E8
+go loop - iterations: 390000 explored: 25670 ops: 53 updates: 84 pruning: 63407 jumped: 1252 bound: 5.37509048E8
+go loop - iterations: 400000 explored: 33754 ops: 56 updates: 84 pruning: 65223 jumped: 1352 bound: 5.37509048E8
+go loop - iterations: 410000 explored: 40974 ops: 34 updates: 84 pruning: 67484 jumped: 1366 bound: 5.37509048E8
+go loop - iterations: 420000 explored: 49546 ops: 62 updates: 84 pruning: 68912 jumped: 1366 bound: 5.37509048E8
+go loop - iterations: 430000 explored: 58067 ops: 59 updates: 84 pruning: 70391 jumped: 1366 bound: 5.37509048E8
+go loop - iterations: 440000 explored: 65942 ops: 55 updates: 84 pruning: 72515 jumped: 1367 bound: 5.37509048E8
+go loop - iterations: 447067 explored: 71443 ops: 84 updates: 85 pruning: 74080 jumped: 1368 bound: 5.37509048E8
+purged: 71379
+go loop - iterations: 448058 explored: 819 ops: 84 updates: 86 pruning: 74315 jumped: 1368 bound: 5.3750899E8
+purged: 755
+go loop - iterations: 450000 explored: 1565 ops: 62 updates: 86 pruning: 74755 jumped: 1368 bound: 5.37508944E8
+go loop - iterations: 459590 explored: 8973 ops: 82 updates: 87 pruning: 76930 jumped: 1375 bound: 5.37508944E8
+purged: 8909
+go loop - iterations: 460000 explored: 369 ops: 56 updates: 87 pruning: 77034 jumped: 1375 bound: 5.37508856E8
+go loop - iterations: 470000 explored: 8760 ops: 51 updates: 87 pruning: 78637 jumped: 1381 bound: 5.37508856E8
+go loop - iterations: 480000 explored: 16636 ops: 62 updates: 87 pruning: 80761 jumped: 1381 bound: 5.37508856E8
+go loop - iterations: 490000 explored: 23375 ops: 46 updates: 87 pruning: 82588 jumped: 1450 bound: 5.37508856E8
+go loop - iterations: 500000 explored: 31679 ops: 56 updates: 87 pruning: 84143 jumped: 1591 bound: 5.37508856E8
+go loop - iterations: 510000 explored: 39443 ops: 48 updates: 87 pruning: 86371 jumped: 1599 bound: 5.37508856E8
+go loop - iterations: 520000 explored: 47215 ops: 53 updates: 87 pruning: 88076 jumped: 1607 bound: 5.37508856E8
+go loop - iterations: 530000 explored: 55773 ops: 53 updates: 87 pruning: 89518 jumped: 1607 bound: 5.37508856E8
+go loop - iterations: 540000 explored: 63863 ops: 57 updates: 87 pruning: 91428 jumped: 1607 bound: 5.37508856E8
+go loop - iterations: 544042 explored: 67013 ops: 84 updates: 88 pruning: 92319 jumped: 1608 bound: 5.37508856E8
+purged: 66787
+go loop - iterations: 545033 explored: 981 ops: 84 updates: 89 pruning: 92554 jumped: 1608 bound: 5.37508606E8
+purged: 755
+go loop - iterations: 550000 explored: 4066 ops: 55 updates: 89 pruning: 93674 jumped: 1614 bound: 5.3750856E8
+go loop - iterations: 560000 explored: 11824 ops: 55 updates: 89 pruning: 95915 jumped: 1615 bound: 5.3750856E8
+go loop - iterations: 562587 explored: 13810 ops: 82 updates: 90 pruning: 96515 jumped: 1616 bound: 5.3750856E8
+purged: 13584
+go loop - iterations: 570000 explored: 6383 ops: 59 updates: 90 pruning: 97764 jumped: 1622 bound: 5.37508472E8
+go loop - iterations: 580000 explored: 14472 ops: 62 updates: 90 pruning: 99675 jumped: 1622 bound: 5.37508472E8
+go loop - iterations: 590000 explored: 20969 ops: 52 updates: 90 pruning: 101791 jumped: 1644 bound: 5.37508472E8
+go loop - iterations: 600000 explored: 29490 ops: 49 updates: 90 pruning: 103095 jumped: 1819 bound: 5.37508472E8
+go loop - iterations: 610000 explored: 37288 ops: 46 updates: 90 pruning: 105278 jumped: 1838 bound: 5.37508472E8
+go loop - iterations: 620000 explored: 44811 ops: 58 updates: 90 pruning: 107222 jumped: 1848 bound: 5.37508472E8
+go loop - iterations: 630000 explored: 52845 ops: 52 updates: 90 pruning: 109187 jumped: 1849 bound: 5.37508472E8
+go loop - iterations: 640000 explored: 59041 ops: 57 updates: 90 pruning: 111385 jumped: 1852 bound: 5.37508472E8
+go loop - iterations: 650000 explored: 60210 ops: 49 updates: 90 pruning: 113459 jumped: 1872 bound: 5.37508472E8
+go loop - iterations: 660000 explored: 68191 ops: 47 updates: 90 pruning: 115372 jumped: 1978 bound: 5.37508472E8
+go loop - iterations: 670000 explored: 76496 ops: 52 updates: 90 pruning: 117064 jumped: 1981 bound: 5.37508472E8
+go loop - iterations: 677199 explored: 82085 ops: 81 updates: 91 pruning: 118673 jumped: 1982 bound: 5.37508472E8
+purged: 81859
+go loop - iterations: 680000 explored: 2352 ops: 53 updates: 91 pruning: 119341 jumped: 1988 bound: 5.37508468E8
+go loop - iterations: 683884 explored: 5312 ops: 79 updates: 92 pruning: 120264 jumped: 1989 bound: 5.37508468E8
+purged: 5086
+go loop - iterations: 683981 explored: 290 ops: 79 updates: 93 pruning: 120296 jumped: 1989 bound: 5.37508291E8
+purged: 64
+go loop - iterations: 690000 explored: 5137 ops: 52 updates: 93 pruning: 121397 jumped: 1995 bound: 5.37508284E8
+go loop - iterations: 700000 explored: 12374 ops: 47 updates: 93 pruning: 123346 jumped: 2077 bound: 5.37508284E8
+go loop - iterations: 710000 explored: 19930 ops: 55 updates: 93 pruning: 125478 jumped: 2129 bound: 5.37508284E8
+go loop - iterations: 716758 explored: 25190 ops: 76 updates: 94 pruning: 126974 jumped: 2131 bound: 5.37508284E8
+purged: 24866
+go loop - iterations: 716806 explored: 349 ops: 76 updates: 95 pruning: 126996 jumped: 2131 bound: 5.37507147E8
+purged: 25
+go loop - iterations: 716897 explored: 379 ops: 76 updates: 96 pruning: 127031 jumped: 2131 bound: 5.37504861E8
+purged: 55
+go loop - iterations: 720000 explored: 2758 ops: 56 updates: 96 pruning: 127697 jumped: 2133 bound: 5.3750486E8
+go loop - iterations: 730000 explored: 10167 ops: 50 updates: 96 pruning: 129748 jumped: 2201 bound: 5.3750486E8
+go loop - iterations: 740000 explored: 18250 ops: 48 updates: 96 pruning: 131665 jumped: 2201 bound: 5.3750486E8
+go loop - iterations: 750000 explored: 26036 ops: 50 updates: 96 pruning: 133878 jumped: 2202 bound: 5.3750486E8
+go loop - iterations: 760000 explored: 33798 ops: 45 updates: 96 pruning: 136114 jumped: 2204 bound: 5.3750486E8
+go loop - iterations: 770000 explored: 41572 ops: 55 updates: 96 pruning: 138339 jumped: 2205 bound: 5.3750486E8
+go loop - iterations: 780000 explored: 49303 ops: 61 updates: 96 pruning: 140606 jumped: 2207 bound: 5.3750486E8
+go loop - iterations: 790000 explored: 56567 ops: 34 updates: 96 pruning: 142968 jumped: 2212 bound: 5.3750486E8
+go loop - iterations: 800000 explored: 64687 ops: 48 updates: 96 pruning: 144848 jumped: 2212 bound: 5.3750486E8
+go loop - iterations: 810000 explored: 72552 ops: 53 updates: 96 pruning: 146983 jumped: 2212 bound: 5.3750486E8
+go loop - iterations: 820000 explored: 80326 ops: 60 updates: 96 pruning: 149207 jumped: 2214 bound: 5.3750486E8
+go loop - iterations: 830000 explored: 88085 ops: 48 updates: 96 pruning: 151446 jumped: 2216 bound: 5.3750486E8
+go loop - iterations: 840000 explored: 95841 ops: 55 updates: 96 pruning: 153689 jumped: 2217 bound: 5.3750486E8
+go loop - iterations: 850000 explored: 103509 ops: 61 updates: 96 pruning: 156018 jumped: 2220 bound: 5.3750486E8
+go loop - iterations: 860000 explored: 110921 ops: 58 updates: 96 pruning: 158234 jumped: 2223 bound: 5.3750486E8
+go loop - iterations: 870000 explored: 118561 ops: 50 updates: 96 pruning: 160591 jumped: 2226 bound: 5.3750486E8
+go loop - iterations: 880000 explored: 125915 ops: 33 updates: 96 pruning: 162718 jumped: 2228 bound: 5.3750486E8
+go loop - iterations: 890000 explored: 134020 ops: 59 updates: 96 pruning: 164613 jumped: 2228 bound: 5.3750486E8
+go loop - iterations: 900000 explored: 142618 ops: 58 updates: 96 pruning: 166015 jumped: 2228 bound: 5.3750486E8
+go loop - iterations: 910000 explored: 150953 ops: 58 updates: 96 pruning: 167679 jumped: 2229 bound: 5.3750486E8
+go loop - iterations: 920000 explored: 158719 ops: 58 updates: 96 pruning: 169907 jumped: 2235 bound: 5.3750486E8
+go loop - iterations: 930000 explored: 160736 ops: 49 updates: 96 pruning: 171546 jumped: 2238 bound: 5.3750486E8
+go loop - iterations: 940000 explored: 160943 ops: 65 updates: 96 pruning: 173625 jumped: 2238 bound: 5.3750486E8
+go loop - iterations: 950000 explored: 164227 ops: 51 updates: 96 pruning: 175515 jumped: 2298 bound: 5.3750486E8
+go loop - iterations: 960000 explored: 172584 ops: 51 updates: 96 pruning: 177006 jumped: 2450 bound: 5.3750486E8
+go loop - iterations: 970000 explored: 177232 ops: 53 updates: 96 pruning: 178800 jumped: 2674 bound: 5.3750486E8
+go loop - iterations: 980000 explored: 177232 ops: 65 updates: 96 pruning: 180515 jumped: 2674 bound: 5.3750486E8
+go loop - iterations: 990000 explored: 177232 ops: 54 updates: 96 pruning: 182759 jumped: 2674 bound: 5.3750486E8
+go loop - iterations: 1000000 explored: 177939 ops: 60 updates: 96 pruning: 184403 jumped: 2674 bound: 5.3750486E8
+go loop - iterations: 1010000 explored: 177939 ops: 65 updates: 96 pruning: 186481 jumped: 2674 bound: 5.3750486E8
+go loop - iterations: 1020000 explored: 181191 ops: 54 updates: 96 pruning: 188371 jumped: 2735 bound: 5.3750486E8
+go loop - iterations: 1030000 explored: 189550 ops: 60 updates: 96 pruning: 189861 jumped: 2886 bound: 5.3750486E8
+go loop - iterations: 1040000 explored: 197314 ops: 54 updates: 96 pruning: 192091 jumped: 2892 bound: 5.3750486E8
+go loop - iterations: 1050000 explored: 198859 ops: 57 updates: 96 pruning: 193585 jumped: 3109 bound: 5.3750486E8
+go loop - iterations: 1060000 explored: 198859 ops: 58 updates: 96 pruning: 195614 jumped: 3109 bound: 5.3750486E8
+go loop - iterations: 1070000 explored: 201175 ops: 56 updates: 96 pruning: 197789 jumped: 3110 bound: 5.3750486E8
+go loop - iterations: 1080000 explored: 209770 ops: 61 updates: 96 pruning: 199194 jumped: 3110 bound: 5.3750486E8
+go loop - iterations: 1090000 explored: 218274 ops: 53 updates: 96 pruning: 200690 jumped: 3110 bound: 5.3750486E8
+go loop - iterations: 1100000 explored: 226061 ops: 54 updates: 96 pruning: 202897 jumped: 3116 bound: 5.3750486E8
+go loop - iterations: 1110000 explored: 229659 ops: 60 updates: 96 pruning: 204697 jumped: 3120 bound: 5.3750486E8
+go loop - iterations: 1120000 explored: 230025 ops: 63 updates: 96 pruning: 206627 jumped: 3120 bound: 5.3750486E8
+go loop - iterations: 1130000 explored: 231387 ops: 47 updates: 96 pruning: 208722 jumped: 3144 bound: 5.3750486E8
+go loop - iterations: 1140000 explored: 239907 ops: 42 updates: 96 pruning: 210025 jumped: 3321 bound: 5.3750486E8
+go loop - iterations: 1150000 explored: 246317 ops: 61 updates: 96 pruning: 211965 jumped: 3556 bound: 5.3750486E8
+go loop - iterations: 1160000 explored: 246317 ops: 58 updates: 96 pruning: 213498 jumped: 3556 bound: 5.3750486E8
+go loop - iterations: 1170000 explored: 246317 ops: 59 updates: 96 pruning: 215740 jumped: 3556 bound: 5.3750486E8
+go loop - iterations: 1180000 explored: 247024 ops: 50 updates: 96 pruning: 217555 jumped: 3556 bound: 5.3750486E8
+go loop - iterations: 1190000 explored: 247024 ops: 65 updates: 96 pruning: 219481 jumped: 3556 bound: 5.3750486E8
+go loop - iterations: 1200000 explored: 248351 ops: 56 updates: 96 pruning: 221578 jumped: 3581 bound: 5.3750486E8
+go loop - iterations: 1210000 explored: 256871 ops: 54 updates: 96 pruning: 222882 jumped: 3757 bound: 5.3750486E8
+go loop - iterations: 1220000 explored: 264657 ops: 52 updates: 96 pruning: 225080 jumped: 3773 bound: 5.3750486E8
+go loop - iterations: 1230000 explored: 267944 ops: 55 updates: 96 pruning: 226748 jumped: 3991 bound: 5.3750486E8
+go loop - iterations: 1240000 explored: 267944 ops: 57 updates: 96 pruning: 228597 jumped: 3991 bound: 5.3750486E8
+go loop - iterations: 1250000 explored: 268433 ops: 40 updates: 96 pruning: 230863 jumped: 3991 bound: 5.3750486E8
+go loop - iterations: 1260000 explored: 276924 ops: 50 updates: 96 pruning: 232371 jumped: 3992 bound: 5.3750486E8
+go loop - iterations: 1270000 explored: 285454 ops: 53 updates: 96 pruning: 233841 jumped: 3992 bound: 5.3750486E8
+go loop - iterations: 1280000 explored: 293399 ops: 54 updates: 96 pruning: 235892 jumped: 3996 bound: 5.3750486E8
+go loop - iterations: 1290000 explored: 298631 ops: 57 updates: 96 pruning: 237863 jumped: 4002 bound: 5.3750486E8
+go loop - iterations: 1300000 explored: 299109 ops: 57 updates: 96 pruning: 239606 jumped: 4002 bound: 5.3750486E8
+go loop - iterations: 1310000 explored: 299121 ops: 64 updates: 96 pruning: 241856 jumped: 4002 bound: 5.3750486E8
+go loop - iterations: 1320000 explored: 307094 ops: 51 updates: 96 pruning: 243215 jumped: 4157 bound: 5.3750486E8
+go loop - iterations: 1330000 explored: 315015 ops: 36 updates: 96 pruning: 245228 jumped: 4223 bound: 5.3750486E8
+go loop - iterations: 1340000 explored: 315401 ops: 54 updates: 96 pruning: 246609 jumped: 4438 bound: 5.3750486E8
+go loop - iterations: 1350000 explored: 315401 ops: 64 updates: 96 pruning: 248731 jumped: 4438 bound: 5.3750486E8
+go loop - iterations: 1360000 explored: 316108 ops: 61 updates: 96 pruning: 250720 jumped: 4438 bound: 5.3750486E8
+go loop - iterations: 1370000 explored: 316108 ops: 56 updates: 96 pruning: 252461 jumped: 4438 bound: 5.3750486E8
+go loop - iterations: 1380000 explored: 316108 ops: 64 updates: 96 pruning: 254712 jumped: 4438 bound: 5.3750486E8
+go loop - iterations: 1390000 explored: 324058 ops: 54 updates: 96 pruning: 256072 jumped: 4593 bound: 5.3750486E8
+go loop - iterations: 1400000 explored: 331994 ops: 51 updates: 96 pruning: 258076 jumped: 4653 bound: 5.3750486E8
+go loop - iterations: 1410000 explored: 337028 ops: 55 updates: 96 pruning: 259914 jumped: 4873 bound: 5.3750486E8
+go loop - iterations: 1420000 explored: 337028 ops: 62 updates: 96 pruning: 261588 jumped: 4873 bound: 5.3750486E8
+go loop - iterations: 1430000 explored: 337028 ops: 57 updates: 96 pruning: 263824 jumped: 4873 bound: 5.3750486E8
+go loop - iterations: 1440000 explored: 344026 ops: 55 updates: 96 pruning: 265600 jumped: 4874 bound: 5.3750486E8
+go loop - iterations: 1450000 explored: 351202 ops: 51 updates: 96 pruning: 267688 jumped: 4882 bound: 5.3750486E8
+go loop - iterations: 1460000 explored: 351519 ops: 58 updates: 96 pruning: 269784 jumped: 4882 bound: 5.3750486E8
+go loop - iterations: 1470000 explored: 358994 ops: 55 updates: 96 pruning: 271451 jumped: 5135 bound: 5.3750486E8
+go loop - iterations: 1480000 explored: 358994 ops: 53 updates: 96 pruning: 273487 jumped: 5135 bound: 5.3750486E8
+go loop - iterations: 1490000 explored: 359378 ops: 55 updates: 96 pruning: 275515 jumped: 5135 bound: 5.3750486E8
+go loop - iterations: 1500000 explored: 365730 ops: 52 updates: 96 pruning: 277357 jumped: 5258 bound: 5.3750486E8
+go loop - iterations: 1510000 explored: 368762 ops: 49 updates: 96 pruning: 279250 jumped: 5387 bound: 5.3750486E8
+go loop - iterations: 1520000 explored: 372545 ops: 61 updates: 96 pruning: 281314 jumped: 5388 bound: 5.3750486E8
+go loop - iterations: 1530000 explored: 380657 ops: 49 updates: 96 pruning: 283198 jumped: 5392 bound: 5.3750486E8
+go loop - iterations: 1540000 explored: 382922 ops: 59 updates: 96 pruning: 285213 jumped: 5396 bound: 5.3750486E8
+go loop - iterations: 1550000 explored: 388361 ops: 48 updates: 96 pruning: 287028 jumped: 5518 bound: 5.3750486E8
+go loop - iterations: 1560000 explored: 390404 ops: 55 updates: 96 pruning: 288926 jumped: 5649 bound: 5.3750486E8
+go loop - iterations: 1570000 explored: 390788 ops: 54 updates: 96 pruning: 290955 jumped: 5649 bound: 5.3750486E8
+go loop - iterations: 1580000 explored: 394464 ops: 52 updates: 96 pruning: 292887 jumped: 5741 bound: 5.3750486E8
+go loop - iterations: 1590000 explored: 400172 ops: 56 updates: 96 pruning: 294863 jumped: 5901 bound: 5.3750486E8
+go loop - iterations: 1600000 explored: 401059 ops: 47 updates: 96 pruning: 297025 jumped: 5910 bound: 5.3750486E8
+go loop - iterations: 1610000 explored: 408538 ops: 43 updates: 96 pruning: 298996 jumped: 6110 bound: 5.3750486E8
+go loop - iterations: 1620000 explored: 416674 ops: 42 updates: 96 pruning: 300793 jumped: 6177 bound: 5.3750486E8
+go loop - iterations: 1630000 explored: 424541 ops: 46 updates: 96 pruning: 302873 jumped: 6230 bound: 5.3750486E8
+go loop - iterations: 1640000 explored: 432315 ops: 53 updates: 96 pruning: 305088 jumped: 6241 bound: 5.3750486E8
+go loop - iterations: 1650000 explored: 440078 ops: 53 updates: 96 pruning: 307315 jumped: 6251 bound: 5.3750486E8
+go loop - iterations: 1660000 explored: 447750 ops: 41 updates: 96 pruning: 309624 jumped: 6270 bound: 5.3750486E8
+go loop - iterations: 1670000 explored: 455799 ops: 45 updates: 96 pruning: 311516 jumped: 6329 bound: 5.3750486E8
+go loop - iterations: 1680000 explored: 463760 ops: 48 updates: 96 pruning: 313484 jumped: 6400 bound: 5.3750486E8
+go loop - iterations: 1690000 explored: 471516 ops: 49 updates: 96 pruning: 315718 jumped: 6410 bound: 5.3750486E8
+go loop - iterations: 1700000 explored: 479294 ops: 44 updates: 96 pruning: 317928 jumped: 6422 bound: 5.3750486E8
+go loop - iterations: 1710000 explored: 486991 ops: 41 updates: 96 pruning: 320216 jumped: 6437 bound: 5.3750486E8
+go loop - iterations: 1720000 explored: 494788 ops: 46 updates: 96 pruning: 322346 jumped: 6510 bound: 5.3750486E8
+go loop - iterations: 1730000 explored: 502410 ops: 45 updates: 96 pruning: 324702 jumped: 6532 bound: 5.3750486E8
+go loop - iterations: 1740000 explored: 503176 ops: 56 updates: 96 pruning: 326529 jumped: 6753 bound: 5.3750486E8
+go loop - iterations: 1750000 explored: 503176 ops: 55 updates: 96 pruning: 328107 jumped: 6753 bound: 5.3750486E8
+go loop - iterations: 1760000 explored: 503176 ops: 63 updates: 96 pruning: 330334 jumped: 6753 bound: 5.3750486E8
+go loop - iterations: 1770000 explored: 503176 ops: 54 updates: 96 pruning: 331903 jumped: 6968 bound: 5.3750486E8
+go loop - iterations: 1780000 explored: 503176 ops: 58 updates: 96 pruning: 333859 jumped: 6968 bound: 5.3750486E8
+go loop - iterations: 1790000 explored: 503179 ops: 57 updates: 96 pruning: 335903 jumped: 7183 bound: 5.3750486E8
+go loop - iterations: 1800000 explored: 503179 ops: 57 updates: 96 pruning: 337398 jumped: 7183 bound: 5.3750486E8
+go loop - iterations: 1810000 explored: 503179 ops: 54 updates: 96 pruning: 339630 jumped: 7183 bound: 5.3750486E8
+go loop - iterations: 1820000 explored: 503179 ops: 55 updates: 96 pruning: 341277 jumped: 7398 bound: 5.3750486E8
+go loop - iterations: 1830000 explored: 503179 ops: 60 updates: 96 pruning: 343140 jumped: 7398 bound: 5.3750486E8
+go loop - iterations: 1840000 explored: 503181 ops: 38 updates: 96 pruning: 345411 jumped: 7398 bound: 5.3750486E8
+go loop - iterations: 1850000 explored: 503181 ops: 55 updates: 96 pruning: 346761 jumped: 7613 bound: 5.3750486E8
+go loop - iterations: 1860000 explored: 503181 ops: 62 updates: 96 pruning: 348915 jumped: 7613 bound: 5.3750486E8
+go loop - iterations: 1870000 explored: 503181 ops: 58 updates: 96 pruning: 350651 jumped: 7828 bound: 5.3750486E8
+go loop - iterations: 1880000 explored: 503181 ops: 56 updates: 96 pruning: 352429 jumped: 7828 bound: 5.3750486E8
+go loop - iterations: 1890000 explored: 503181 ops: 57 updates: 96 pruning: 354688 jumped: 7828 bound: 5.3750486E8
+go loop - iterations: 1900000 explored: 503185 ops: 54 updates: 96 pruning: 356587 jumped: 7952 bound: 5.3750486E8
+go loop - iterations: 1910000 explored: 503185 ops: 53 updates: 96 pruning: 358487 jumped: 8076 bound: 5.3750486E8
+go loop - iterations: 1920000 explored: 503187 ops: 53 updates: 96 pruning: 360397 jumped: 8200 bound: 5.3750486E8
+go loop - iterations: 1930000 explored: 503187 ops: 54 updates: 96 pruning: 362348 jumped: 8324 bound: 5.3750486E8
+go loop - iterations: 1940000 explored: 505083 ops: 35 updates: 96 pruning: 364490 jumped: 8408 bound: 5.3750486E8
+go loop - iterations: 1950000 explored: 508991 ops: 50 updates: 96 pruning: 366099 jumped: 8667 bound: 5.3750486E8
+go loop - iterations: 1960000 explored: 508991 ops: 55 updates: 96 pruning: 367900 jumped: 8667 bound: 5.3750486E8
+go loop - iterations: 1970000 explored: 508991 ops: 62 updates: 96 pruning: 370148 jumped: 8667 bound: 5.3750486E8
+go loop - iterations: 1980000 explored: 509698 ops: 56 updates: 96 pruning: 371714 jumped: 8667 bound: 5.3750486E8
+go loop - iterations: 1990000 explored: 509698 ops: 62 updates: 96 pruning: 373868 jumped: 8667 bound: 5.3750486E8
+go loop - iterations: 2000000 explored: 513842 ops: 54 updates: 96 pruning: 375652 jumped: 8744 bound: 5.3750486E8
+go loop - iterations: 2010000 explored: 522117 ops: 54 updates: 96 pruning: 377242 jumped: 8879 bound: 5.3750486E8
+go loop - iterations: 2020000 explored: 529874 ops: 51 updates: 96 pruning: 379478 jumped: 8886 bound: 5.3750486E8
+go loop - iterations: 2030000 explored: 530618 ops: 59 updates: 96 pruning: 380896 jumped: 9102 bound: 5.3750486E8
+go loop - iterations: 2040000 explored: 530618 ops: 62 updates: 96 pruning: 382985 jumped: 9102 bound: 5.3750486E8
+go loop - iterations: 2050000 explored: 532036 ops: 49 updates: 96 pruning: 384960 jumped: 9319 bound: 5.3750486E8
+go loop - iterations: 2060000 explored: 532036 ops: 57 updates: 96 pruning: 386529 jumped: 9319 bound: 5.3750486E8
+go loop - iterations: 2070000 explored: 532036 ops: 64 updates: 96 pruning: 388757 jumped: 9319 bound: 5.3750486E8
+go loop - iterations: 2080000 explored: 532743 ops: 53 updates: 96 pruning: 390549 jumped: 9319 bound: 5.3750486E8
+go loop - iterations: 2090000 explored: 532743 ops: 61 updates: 96 pruning: 392499 jumped: 9319 bound: 5.3750486E8
+go loop - iterations: 2100000 explored: 534355 ops: 52 updates: 96 pruning: 394568 jumped: 9349 bound: 5.3750486E8
+go loop - iterations: 2110000 explored: 542868 ops: 52 updates: 96 pruning: 395876 jumped: 9528 bound: 5.3750486E8
+go loop - iterations: 2120000 explored: 550625 ops: 46 updates: 96 pruning: 398111 jumped: 9536 bound: 5.3750486E8
+go loop - iterations: 2130000 explored: 553663 ops: 59 updates: 96 pruning: 399742 jumped: 9754 bound: 5.3750486E8
+go loop - iterations: 2140000 explored: 553663 ops: 62 updates: 96 pruning: 401614 jumped: 9754 bound: 5.3750486E8
+go loop - iterations: 2150000 explored: 554412 ops: 32 updates: 96 pruning: 403881 jumped: 9756 bound: 5.3750486E8
+go loop - iterations: 2160000 explored: 555080 ops: 56 updates: 96 pruning: 405296 jumped: 9971 bound: 5.3750486E8
+go loop - iterations: 2170000 explored: 555080 ops: 64 updates: 96 pruning: 407387 jumped: 9971 bound: 5.3750486E8
+go loop - iterations: 2180000 explored: 555787 ops: 59 updates: 96 pruning: 409410 jumped: 9971 bound: 5.3750486E8
+go loop - iterations: 2190000 explored: 555787 ops: 61 updates: 96 pruning: 411131 jumped: 9971 bound: 5.3750486E8
+go loop - iterations: 2200000 explored: 555787 ops: 56 updates: 96 pruning: 413374 jumped: 9971 bound: 5.3750486E8
+go loop - iterations: 2210000 explored: 563420 ops: 52 updates: 96 pruning: 414767 jumped: 10119 bound: 5.3750486E8
+go loop - iterations: 2220000 explored: 571377 ops: 51 updates: 96 pruning: 416743 jumped: 10186 bound: 5.3750486E8
+go loop - iterations: 2230000 explored: 576707 ops: 55 updates: 96 pruning: 418605 jumped: 10406 bound: 5.3750486E8
+go loop - iterations: 2240000 explored: 576707 ops: 64 updates: 96 pruning: 420243 jumped: 10406 bound: 5.3750486E8
+go loop - iterations: 2250000 explored: 576707 ops: 64 updates: 96 pruning: 422487 jumped: 10406 bound: 5.3750486E8
+go loop - iterations: 2260000 explored: 577802 ops: 57 updates: 96 pruning: 424383 jumped: 10532 bound: 5.3750486E8
+go loop - iterations: 2270000 explored: 578186 ops: 55 updates: 96 pruning: 426406 jumped: 10532 bound: 5.3750486E8
+go loop - iterations: 2280000 explored: 581257 ops: 48 updates: 96 pruning: 428406 jumped: 10605 bound: 5.3750486E8
+go loop - iterations: 2290000 explored: 587570 ops: 55 updates: 96 pruning: 430375 jumped: 10784 bound: 5.3750486E8
+go loop - iterations: 2300000 explored: 587875 ops: 40 updates: 96 pruning: 432511 jumped: 10784 bound: 5.3750486E8
+go loop - iterations: 2310000 explored: 588341 ops: 53 updates: 96 pruning: 434410 jumped: 10910 bound: 5.3750486E8
+go loop - iterations: 2320000 explored: 588725 ops: 59 updates: 96 pruning: 436433 jumped: 10910 bound: 5.3750486E8
+go loop - iterations: 2330000 explored: 594046 ops: 57 updates: 96 pruning: 438277 jumped: 11032 bound: 5.3750486E8
+go loop - iterations: 2340000 explored: 598109 ops: 50 updates: 96 pruning: 440203 jumped: 11162 bound: 5.3750486E8
+go loop - iterations: 2350000 explored: 600467 ops: 48 updates: 96 pruning: 442324 jumped: 11287 bound: 5.3750486E8
+go loop - iterations: 2360000 explored: 608223 ops: 42 updates: 96 pruning: 444344 jumped: 11340 bound: 5.3750486E8
+go loop - iterations: 2370000 explored: 616246 ops: 43 updates: 96 pruning: 446242 jumped: 11419 bound: 5.3750486E8
+go loop - iterations: 2380000 explored: 624006 ops: 52 updates: 96 pruning: 448471 jumped: 11430 bound: 5.3750486E8
+go loop - iterations: 2390000 explored: 631785 ops: 52 updates: 96 pruning: 450680 jumped: 11442 bound: 5.3750486E8
+go loop - iterations: 2400000 explored: 639500 ops: 52 updates: 96 pruning: 452952 jumped: 11455 bound: 5.3750486E8
+go loop - iterations: 2410000 explored: 647335 ops: 46 updates: 96 pruning: 455077 jumped: 11495 bound: 5.3750486E8
+go loop - iterations: 2420000 explored: 655429 ops: 44 updates: 96 pruning: 456902 jumped: 11576 bound: 5.3750486E8
+go loop - iterations: 2430000 explored: 663222 ops: 51 updates: 96 pruning: 459086 jumped: 11599 bound: 5.3750486E8
+go loop - iterations: 2440000 explored: 670993 ops: 44 updates: 96 pruning: 461303 jumped: 11611 bound: 5.3750486E8
+go loop - iterations: 2450000 explored: 678738 ops: 50 updates: 96 pruning: 463547 jumped: 11622 bound: 5.3750486E8
+go loop - iterations: 2460000 explored: 686443 ops: 41 updates: 96 pruning: 465807 jumped: 11657 bound: 5.3750486E8
+go loop - iterations: 2470000 explored: 694193 ops: 50 updates: 96 pruning: 468000 jumped: 11714 bound: 5.3750486E8
+go loop - iterations: 2480000 explored: 701982 ops: 33 updates: 96 pruning: 470115 jumped: 11810 bound: 5.3750486E8
+go loop - iterations: 2490000 explored: 709675 ops: 33 updates: 96 pruning: 472360 jumped: 11872 bound: 5.3750486E8
+go loop - iterations: 2500000 explored: 717242 ops: 35 updates: 96 pruning: 474751 jumped: 11914 bound: 5.3750486E8
+go loop - iterations: 2510000 explored: 723615 ops: 59 updates: 96 pruning: 476525 jumped: 12204 bound: 5.3750486E8
+go loop - iterations: 2520000 explored: 723615 ops: 56 updates: 96 pruning: 478084 jumped: 12204 bound: 5.3750486E8
+go loop - iterations: 2530000 explored: 723615 ops: 64 updates: 96 pruning: 480310 jumped: 12204 bound: 5.3750486E8
+go loop - iterations: 2540000 explored: 724322 ops: 61 updates: 96 pruning: 482114 jumped: 12204 bound: 5.3750486E8
+go loop - iterations: 2550000 explored: 724322 ops: 62 updates: 96 pruning: 484056 jumped: 12204 bound: 5.3750486E8
+go loop - iterations: 2560000 explored: 725796 ops: 51 updates: 96 pruning: 486136 jumped: 12232 bound: 5.3750486E8
+go loop - iterations: 2570000 explored: 734312 ops: 49 updates: 96 pruning: 487443 jumped: 12409 bound: 5.3750486E8
+go loop - iterations: 2580000 explored: 742082 ops: 51 updates: 96 pruning: 489661 jumped: 12421 bound: 5.3750486E8
+go loop - iterations: 2590000 explored: 745242 ops: 56 updates: 96 pruning: 491309 jumped: 12639 bound: 5.3750486E8
+go loop - iterations: 2600000 explored: 745242 ops: 61 updates: 96 pruning: 493168 jumped: 12639 bound: 5.3750486E8
+go loop - iterations: 2610000 explored: 745863 ops: 37 updates: 96 pruning: 495439 jumped: 12639 bound: 5.3750486E8
+go loop - iterations: 2620000 explored: 746660 ops: 47 updates: 96 pruning: 496860 jumped: 12856 bound: 5.3750486E8
+go loop - iterations: 2630000 explored: 746660 ops: 63 updates: 96 pruning: 498941 jumped: 12856 bound: 5.3750486E8
+go loop - iterations: 2640000 explored: 747367 ops: 61 updates: 96 pruning: 500976 jumped: 12856 bound: 5.3750486E8
+go loop - iterations: 2650000 explored: 747367 ops: 61 updates: 96 pruning: 502686 jumped: 12856 bound: 5.3750486E8
+go loop - iterations: 2660000 explored: 747367 ops: 55 updates: 96 pruning: 504927 jumped: 12856 bound: 5.3750486E8
+go loop - iterations: 2670000 explored: 754864 ops: 50 updates: 96 pruning: 506334 jumped: 13000 bound: 5.3750486E8
+go loop - iterations: 2680000 explored: 762833 ops: 54 updates: 96 pruning: 508294 jumped: 13071 bound: 5.3750486E8
+go loop - iterations: 2690000 explored: 768287 ops: 58 updates: 96 pruning: 510170 jumped: 13291 bound: 5.3750486E8
+go loop - iterations: 2700000 explored: 768287 ops: 63 updates: 96 pruning: 511797 jumped: 13291 bound: 5.3750486E8
+go loop - iterations: 2710000 explored: 768287 ops: 60 updates: 96 pruning: 514043 jumped: 13291 bound: 5.3750486E8
+go loop - iterations: 2720000 explored: 769704 ops: 61 updates: 96 pruning: 515705 jumped: 13508 bound: 5.3750486E8
+go loop - iterations: 2730000 explored: 769704 ops: 65 updates: 96 pruning: 517571 jumped: 13508 bound: 5.3750486E8
+go loop - iterations: 2740000 explored: 770401 ops: 39 updates: 96 pruning: 519843 jumped: 13508 bound: 5.3750486E8
+go loop - iterations: 2750000 explored: 770411 ops: 55 updates: 96 pruning: 521333 jumped: 13508 bound: 5.3750486E8
+go loop - iterations: 2760000 explored: 770411 ops: 55 updates: 96 pruning: 523548 jumped: 13508 bound: 5.3750486E8
+go loop - iterations: 2770000 explored: 775391 ops: 55 updates: 96 pruning: 525241 jumped: 13600 bound: 5.3750486E8
+go loop - iterations: 2780000 explored: 783581 ops: 51 updates: 96 pruning: 526930 jumped: 13721 bound: 5.3750486E8
+go loop - iterations: 2790000 explored: 791331 ops: 43 updates: 96 pruning: 529168 jumped: 13728 bound: 5.3750486E8
+go loop - iterations: 2800000 explored: 791331 ops: 53 updates: 96 pruning: 530518 jumped: 13943 bound: 5.3750486E8
+go loop - iterations: 2810000 explored: 791331 ops: 60 updates: 96 pruning: 532675 jumped: 13943 bound: 5.3750486E8
+go loop - iterations: 2820000 explored: 792426 ops: 55 updates: 96 pruning: 534634 jumped: 14069 bound: 5.3750486E8
+go loop - iterations: 2830000 explored: 792810 ops: 56 updates: 96 pruning: 536774 jumped: 14069 bound: 5.3750486E8
+go loop - iterations: 2840000 explored: 793252 ops: 46 updates: 96 pruning: 538863 jumped: 14079 bound: 5.3750486E8
+go loop - iterations: 2850000 explored: 801252 ops: 54 updates: 96 pruning: 540747 jumped: 14195 bound: 5.3750486E8
+go loop - iterations: 2860000 explored: 802194 ops: 52 updates: 96 pruning: 542643 jumped: 14321 bound: 5.3750486E8
+go loop - iterations: 2870000 explored: 802965 ops: 61 updates: 96 pruning: 544555 jumped: 14447 bound: 5.3750486E8
+go loop - iterations: 2880000 explored: 803349 ops: 57 updates: 96 pruning: 546604 jumped: 14447 bound: 5.3750486E8
+go loop - iterations: 2890000 explored: 806155 ops: 50 updates: 96 pruning: 548614 jumped: 14512 bound: 5.3750486E8
+go loop - iterations: 2900000 explored: 812733 ops: 57 updates: 96 pruning: 550578 jumped: 14699 bound: 5.3750486E8
+go loop - iterations: 2910000 explored: 812798 ops: 39 updates: 96 pruning: 552686 jumped: 14699 bound: 5.3750486E8
+go loop - iterations: 2920000 explored: 820306 ops: 44 updates: 96 pruning: 554670 jumped: 14857 bound: 5.3750486E8
+go loop - iterations: 2930000 explored: 828407 ops: 43 updates: 96 pruning: 556490 jumped: 14936 bound: 5.3750486E8
+go loop - iterations: 2940000 explored: 836210 ops: 51 updates: 96 pruning: 558659 jumped: 14964 bound: 5.3750486E8
+go loop - iterations: 2950000 explored: 843989 ops: 46 updates: 96 pruning: 560868 jumped: 14976 bound: 5.3750486E8
+go loop - iterations: 2960000 explored: 851743 ops: 50 updates: 96 pruning: 563103 jumped: 14987 bound: 5.3750486E8
+go loop - iterations: 2970000 explored: 859419 ops: 40 updates: 96 pruning: 565402 jumped: 15012 bound: 5.3750486E8
+go loop - iterations: 2980000 explored: 867556 ops: 41 updates: 96 pruning: 567197 jumped: 15080 bound: 5.3750486E8
+go loop - iterations: 2990000 explored: 875422 ops: 46 updates: 96 pruning: 569278 jumped: 15133 bound: 5.3750486E8
+go loop - iterations: 3000000 explored: 883197 ops: 51 updates: 96 pruning: 571492 jumped: 15144 bound: 5.3750486E8
+go loop - iterations: 3010000 explored: 890960 ops: 49 updates: 96 pruning: 573719 jumped: 15154 bound: 5.3750486E8
+go loop - iterations: 3020000 explored: 898634 ops: 44 updates: 96 pruning: 576026 jumped: 15173 bound: 5.3750486E8
+go loop - iterations: 3030000 explored: 906431 ops: 40 updates: 96 pruning: 578157 jumped: 15245 bound: 5.3750486E8
+go loop - iterations: 3040000 explored: 914112 ops: 31 updates: 96 pruning: 580428 jumped: 15293 bound: 5.3750486E8
+go loop - iterations: 3050000 explored: 921908 ops: 38 updates: 96 pruning: 582523 jumped: 15402 bound: 5.3750486E8
+go loop - iterations: 3060000 explored: 929527 ops: 36 updates: 96 pruning: 584873 jumped: 15433 bound: 5.3750486E8
+go loop - iterations: 3070000 explored: 937330 ops: 31 updates: 96 pruning: 586940 jumped: 15563 bound: 5.3750486E8
+go loop - iterations: 3080000 explored: 945000 ops: 40 updates: 96 pruning: 589232 jumped: 15601 bound: 5.3750486E8
+go loop - iterations: 3090000 explored: 952573 ops: 26 updates: 96 pruning: 591605 jumped: 15655 bound: 5.3750486E8
+go loop - iterations: 3100000 explored: 960430 ops: 33 updates: 96 pruning: 593568 jumped: 15835 bound: 5.3750486E8
+go loop - iterations: 3110000 explored: 968068 ops: 27 updates: 96 pruning: 595887 jumped: 15878 bound: 5.3750486E8
+go loop - iterations: 3120000 explored: 974077 ops: 35 updates: 96 pruning: 598081 jumped: 15931 bound: 5.3750486E8
+go loop - iterations: 3130000 explored: 977357 ops: 58 updates: 96 pruning: 599953 jumped: 16146 bound: 5.3750486E8
+go loop - iterations: 3140000 explored: 977357 ops: 59 updates: 96 pruning: 601452 jumped: 16146 bound: 5.3750486E8
+go loop - iterations: 3150000 explored: 977357 ops: 57 updates: 96 pruning: 603696 jumped: 16146 bound: 5.3750486E8
+go loop - iterations: 3160000 explored: 977357 ops: 57 updates: 96 pruning: 605329 jumped: 16361 bound: 5.3750486E8
+go loop - iterations: 3170000 explored: 977357 ops: 59 updates: 96 pruning: 607213 jumped: 16361 bound: 5.3750486E8
+go loop - iterations: 3180000 explored: 978065 ops: 46 updates: 96 pruning: 609444 jumped: 16394 bound: 5.3750486E8
+go loop - iterations: 3190000 explored: 978065 ops: 50 updates: 96 pruning: 610814 jumped: 16576 bound: 5.3750486E8
+go loop - iterations: 3200000 explored: 978065 ops: 64 updates: 96 pruning: 612977 jumped: 16576 bound: 5.3750486E8
+go loop - iterations: 3210000 explored: 982403 ops: 55 updates: 96 pruning: 614725 jumped: 16654 bound: 5.3750486E8
+go loop - iterations: 3220000 explored: 991020 ops: 55 updates: 96 pruning: 615954 jumped: 16808 bound: 5.3750486E8
+go loop - iterations: 3230000 explored: 999451 ops: 45 updates: 96 pruning: 617334 jumped: 16997 bound: 5.3750486E8
+go loop - iterations: 3240000 explored: 1007224 ops: 61 updates: 96 pruning: 619554 jumped: 17004 bound: 5.3750486E8
+go loop - iterations: 3250000 explored: 1014981 ops: 50 updates: 96 pruning: 621788 jumped: 17013 bound: 5.3750486E8
+go loop - iterations: 3260000 explored: 1020590 ops: 56 updates: 96 pruning: 623829 jumped: 17021 bound: 5.3750486E8
+go loop - iterations: 3270000 explored: 1020590 ops: 65 updates: 96 pruning: 625521 jumped: 17021 bound: 5.3750486E8
+go loop - iterations: 3280000 explored: 1020590 ops: 55 updates: 96 pruning: 627758 jumped: 17021 bound: 5.3750486E8
+go loop - iterations: 3290000 explored: 1020812 ops: 59 updates: 96 pruning: 629292 jumped: 17021 bound: 5.3750486E8
+go loop - iterations: 3300000 explored: 1021150 ops: 49 updates: 96 pruning: 630757 jumped: 17021 bound: 5.3750486E8
+go loop - iterations: 3310000 explored: 1021276 ops: 60 updates: 96 pruning: 632798 jumped: 17022 bound: 5.3750486E8
+go loop - iterations: 3320000 explored: 1021279 ops: 57 updates: 96 pruning: 635040 jumped: 17024 bound: 5.3750486E8
+go loop - iterations: 3330000 explored: 1021288 ops: 59 updates: 96 pruning: 637302 jumped: 17026 bound: 5.3750486E8
+go loop - iterations: 3340000 explored: 1021297 ops: 59 updates: 96 pruning: 638683 jumped: 17241 bound: 5.3750486E8
+go loop - iterations: 3350000 explored: 1021297 ops: 63 updates: 96 pruning: 640812 jumped: 17241 bound: 5.3750486E8
+go loop - iterations: 3360000 explored: 1025067 ops: 42 updates: 96 pruning: 642574 jumped: 17364 bound: 5.3750486E8
+go loop - iterations: 3370000 explored: 1033502 ops: 47 updates: 96 pruning: 643841 jumped: 17662 bound: 5.3750486E8
+go loop - iterations: 3380000 explored: 1041281 ops: 53 updates: 96 pruning: 646049 jumped: 17675 bound: 5.3750486E8
+go loop - iterations: 3390000 explored: 1043612 ops: 60 updates: 96 pruning: 647699 jumped: 17897 bound: 5.3750486E8
+go loop - iterations: 3400000 explored: 1043612 ops: 64 updates: 96 pruning: 649570 jumped: 17897 bound: 5.3750486E8
+go loop - iterations: 3410000 explored: 1043612 ops: 55 updates: 96 pruning: 651621 jumped: 18112 bound: 5.3750486E8
+go loop - iterations: 3420000 explored: 1043612 ops: 47 updates: 96 pruning: 653113 jumped: 18112 bound: 5.3750486E8
+go loop - iterations: 3430000 explored: 1043612 ops: 55 updates: 96 pruning: 655331 jumped: 18112 bound: 5.3750486E8
+go loop - iterations: 3440000 explored: 1044320 ops: 58 updates: 96 pruning: 657075 jumped: 18327 bound: 5.3750486E8
+go loop - iterations: 3450000 explored: 1044320 ops: 57 updates: 96 pruning: 658864 jumped: 18327 bound: 5.3750486E8
+go loop - iterations: 3460000 explored: 1044320 ops: 63 updates: 96 pruning: 661117 jumped: 18327 bound: 5.3750486E8
+go loop - iterations: 3470000 explored: 1052786 ops: 45 updates: 96 pruning: 662364 jumped: 18478 bound: 5.3750486E8
+go loop - iterations: 3480000 explored: 1061345 ops: 52 updates: 96 pruning: 663633 jumped: 18650 bound: 5.3750486E8
+go loop - iterations: 3490000 explored: 1069428 ops: 54 updates: 96 pruning: 665449 jumped: 18751 bound: 5.3750486E8
+go loop - iterations: 3500000 explored: 1077204 ops: 59 updates: 96 pruning: 667664 jumped: 18760 bound: 5.3750486E8
+go loop - iterations: 3510000 explored: 1084955 ops: 54 updates: 96 pruning: 669904 jumped: 18769 bound: 5.3750486E8
+go loop - iterations: 3520000 explored: 1086845 ops: 55 updates: 96 pruning: 671583 jumped: 18772 bound: 5.3750486E8
+go loop - iterations: 3530000 explored: 1086845 ops: 56 updates: 96 pruning: 673639 jumped: 18772 bound: 5.3750486E8
+go loop - iterations: 3540000 explored: 1086946 ops: 64 updates: 96 pruning: 675609 jumped: 18772 bound: 5.3750486E8
+go loop - iterations: 3550000 explored: 1087204 ops: 50 updates: 96 pruning: 677014 jumped: 18772 bound: 5.3750486E8
+go loop - iterations: 3560000 explored: 1087529 ops: 49 updates: 96 pruning: 678676 jumped: 18773 bound: 5.3750486E8
+go loop - iterations: 3570000 explored: 1087531 ops: 60 updates: 96 pruning: 680917 jumped: 18774 bound: 5.3750486E8
+go loop - iterations: 3580000 explored: 1087538 ops: 65 updates: 96 pruning: 683157 jumped: 18776 bound: 5.3750486E8
+go loop - iterations: 3590000 explored: 1087552 ops: 59 updates: 96 pruning: 684952 jumped: 18992 bound: 5.3750486E8
+go loop - iterations: 3600000 explored: 1087552 ops: 59 updates: 96 pruning: 686687 jumped: 18992 bound: 5.3750486E8
+go loop - iterations: 3610000 explored: 1087552 ops: 63 updates: 96 pruning: 688933 jumped: 18992 bound: 5.3750486E8
+go loop - iterations: 3620000 explored: 1095433 ops: 48 updates: 96 pruning: 690165 jumped: 19253 bound: 5.3750486E8
+go loop - iterations: 3630000 explored: 1103481 ops: 49 updates: 96 pruning: 691952 jumped: 19418 bound: 5.3750486E8
+go loop - iterations: 3640000 explored: 1109866 ops: 44 updates: 96 pruning: 694005 jumped: 19633 bound: 5.3750486E8
+go loop - iterations: 3650000 explored: 1109866 ops: 55 updates: 96 pruning: 695485 jumped: 19648 bound: 5.3750486E8
+go loop - iterations: 3660000 explored: 1109866 ops: 57 updates: 96 pruning: 697693 jumped: 19648 bound: 5.3750486E8
+go loop - iterations: 3670000 explored: 1109866 ops: 57 updates: 96 pruning: 699366 jumped: 19863 bound: 5.3750486E8
+go loop - iterations: 3680000 explored: 1109866 ops: 53 updates: 96 pruning: 701217 jumped: 19863 bound: 5.3750486E8
+go loop - iterations: 3690000 explored: 1110351 ops: 31 updates: 96 pruning: 703483 jumped: 19863 bound: 5.3750486E8
+go loop - iterations: 3700000 explored: 1110574 ops: 57 updates: 96 pruning: 704846 jumped: 20078 bound: 5.3750486E8
+go loop - iterations: 3710000 explored: 1110574 ops: 61 updates: 96 pruning: 706990 jumped: 20078 bound: 5.3750486E8
+go loop - iterations: 3720000 explored: 1114552 ops: 44 updates: 96 pruning: 708773 jumped: 20149 bound: 5.3750486E8
+go loop - iterations: 3730000 explored: 1123167 ops: 47 updates: 96 pruning: 710004 jumped: 20303 bound: 5.3750486E8
+go loop - iterations: 3740000 explored: 1131648 ops: 48 updates: 96 pruning: 711327 jumped: 20499 bound: 5.3750486E8
+go loop - iterations: 3750000 explored: 1139401 ops: 61 updates: 96 pruning: 713567 jumped: 20506 bound: 5.3750486E8
+go loop - iterations: 3760000 explored: 1147178 ops: 55 updates: 96 pruning: 715781 jumped: 20515 bound: 5.3750486E8
+go loop - iterations: 3770000 explored: 1153099 ops: 60 updates: 96 pruning: 717865 jumped: 20523 bound: 5.3750486E8
+go loop - iterations: 3780000 explored: 1153099 ops: 61 updates: 96 pruning: 719515 jumped: 20523 bound: 5.3750486E8
+go loop - iterations: 3790000 explored: 1153099 ops: 65 updates: 96 pruning: 721758 jumped: 20523 bound: 5.3750486E8
+go loop - iterations: 3800000 explored: 1153328 ops: 59 updates: 96 pruning: 723332 jumped: 20523 bound: 5.3750486E8
+go loop - iterations: 3810000 explored: 1153639 ops: 51 updates: 96 pruning: 724788 jumped: 20523 bound: 5.3750486E8
+go loop - iterations: 3820000 explored: 1153785 ops: 58 updates: 96 pruning: 726801 jumped: 20524 bound: 5.3750486E8
+go loop - iterations: 3830000 explored: 1153788 ops: 58 updates: 96 pruning: 729032 jumped: 20526 bound: 5.3750486E8
+go loop - iterations: 3840000 explored: 1153797 ops: 64 updates: 96 pruning: 731299 jumped: 20528 bound: 5.3750486E8
+go loop - iterations: 3850000 explored: 1153806 ops: 59 updates: 96 pruning: 732716 jumped: 20743 bound: 5.3750486E8
+go loop - iterations: 3860000 explored: 1153806 ops: 63 updates: 96 pruning: 734806 jumped: 20743 bound: 5.3750486E8
+go loop - iterations: 3870000 explored: 1157219 ops: 47 updates: 96 pruning: 736624 jumped: 20854 bound: 5.3750486E8
+go loop - iterations: 3880000 explored: 1165697 ops: 46 updates: 96 pruning: 737836 jumped: 21164 bound: 5.3750486E8
+go loop - iterations: 3890000 explored: 1173460 ops: 47 updates: 96 pruning: 740061 jumped: 21176 bound: 5.3750486E8
+go loop - iterations: 3900000 explored: 1176121 ops: 59 updates: 96 pruning: 741926 jumped: 21308 bound: 5.3750486E8
+go loop - iterations: 3910000 explored: 1176121 ops: 53 updates: 96 pruning: 743866 jumped: 21432 bound: 5.3750486E8
+go loop - iterations: 3920000 explored: 1176506 ops: 56 updates: 96 pruning: 745913 jumped: 21556 bound: 5.3750486E8
+go loop - iterations: 3930000 explored: 1177457 ops: 44 updates: 96 pruning: 747983 jumped: 21577 bound: 5.3750486E8
+go loop - iterations: 3940000 explored: 1185889 ops: 45 updates: 96 pruning: 749333 jumped: 21795 bound: 5.3750486E8
+go loop - iterations: 3950000 explored: 1193546 ops: 53 updates: 96 pruning: 751661 jumped: 21810 bound: 5.3750486E8
+go loop - iterations: 3960000 explored: 1195678 ops: 55 updates: 96 pruning: 753689 jumped: 21816 bound: 5.3750486E8
+go loop - iterations: 3970000 explored: 1195876 ops: 53 updates: 96 pruning: 755532 jumped: 21816 bound: 5.3750486E8
+go loop - iterations: 3980000 explored: 1196047 ops: 57 updates: 96 pruning: 757662 jumped: 21818 bound: 5.3750486E8
+go loop - iterations: 3990000 explored: 1196062 ops: 48 updates: 96 pruning: 759642 jumped: 21944 bound: 5.3750486E8
+go loop - iterations: 4000000 explored: 1198202 ops: 42 updates: 96 pruning: 761632 jumped: 22028 bound: 5.3750486E8
+go loop - iterations: 4010000 explored: 1206110 ops: 48 updates: 96 pruning: 763554 jumped: 22198 bound: 5.3750486E8
+go loop - iterations: 4020000 explored: 1206236 ops: 56 updates: 96 pruning: 765451 jumped: 22325 bound: 5.3750486E8
+go loop - iterations: 4030000 explored: 1206236 ops: 58 updates: 96 pruning: 767349 jumped: 22449 bound: 5.3750486E8
+go loop - iterations: 4040000 explored: 1206621 ops: 55 updates: 96 pruning: 769261 jumped: 22573 bound: 5.3750486E8
+go loop - iterations: 4050000 explored: 1210371 ops: 55 updates: 96 pruning: 771156 jumped: 22655 bound: 5.3750486E8
+go loop - iterations: 4060000 explored: 1218515 ops: 52 updates: 96 pruning: 772850 jumped: 22817 bound: 5.3750486E8
+go loop - iterations: 4070000 explored: 1225793 ops: 58 updates: 96 pruning: 775158 jumped: 22833 bound: 5.3750486E8
+go loop - iterations: 4080000 explored: 1225793 ops: 55 updates: 96 pruning: 777213 jumped: 22833 bound: 5.3750486E8
+go loop - iterations: 4090000 explored: 1226156 ops: 51 updates: 96 pruning: 778831 jumped: 22833 bound: 5.3750486E8
+go loop - iterations: 4100000 explored: 1226165 ops: 57 updates: 96 pruning: 781174 jumped: 22836 bound: 5.3750486E8
+go loop - iterations: 4110000 explored: 1226177 ops: 51 updates: 96 pruning: 783090 jumped: 22961 bound: 5.3750486E8
+go loop - iterations: 4120000 explored: 1231069 ops: 45 updates: 96 pruning: 784780 jumped: 23178 bound: 5.3750486E8
+go loop - iterations: 4130000 explored: 1238335 ops: 46 updates: 96 pruning: 786754 jumped: 23396 bound: 5.3750486E8
+go loop - iterations: 4140000 explored: 1243869 ops: 51 updates: 96 pruning: 788821 jumped: 23546 bound: 5.3750486E8
+go loop - iterations: 4150000 explored: 1250023 ops: 44 updates: 96 pruning: 790827 jumped: 23699 bound: 5.3750486E8
+go loop - iterations: 4160000 explored: 1258141 ops: 46 updates: 96 pruning: 792635 jumped: 23773 bound: 5.3750486E8
+go loop - iterations: 4170000 explored: 1261651 ops: 55 updates: 96 pruning: 794771 jumped: 23809 bound: 5.3750486E8
+go loop - iterations: 4180000 explored: 1264005 ops: 51 updates: 96 pruning: 797000 jumped: 23816 bound: 5.3750486E8
+go loop - iterations: 4190000 explored: 1265186 ops: 59 updates: 96 pruning: 799221 jumped: 23822 bound: 5.3750486E8
+go loop - iterations: 4200000 explored: 1266370 ops: 53 updates: 96 pruning: 801457 jumped: 23829 bound: 5.3750486E8
+go loop - iterations: 4210000 explored: 1268245 ops: 56 updates: 96 pruning: 803694 jumped: 23837 bound: 5.3750486E8
+go loop - iterations: 4220000 explored: 1269645 ops: 51 updates: 96 pruning: 806027 jumped: 23848 bound: 5.3750486E8
+go loop - iterations: 4230000 explored: 1274403 ops: 45 updates: 96 pruning: 808130 jumped: 23887 bound: 5.3750486E8
+go loop - iterations: 4240000 explored: 1282485 ops: 37 updates: 96 pruning: 809964 jumped: 23971 bound: 5.3750486E8
+go loop - iterations: 4250000 explored: 1285108 ops: 53 updates: 96 pruning: 812180 jumped: 23983 bound: 5.3750486E8
+go loop - iterations: 4260000 explored: 1286292 ops: 51 updates: 96 pruning: 814406 jumped: 23990 bound: 5.3750486E8
+go loop - iterations: 4270000 explored: 1287473 ops: 58 updates: 96 pruning: 816647 jumped: 23996 bound: 5.3750486E8
+go loop - iterations: 4280000 explored: 1289827 ops: 53 updates: 96 pruning: 818863 jumped: 24003 bound: 5.3750486E8
+go loop - iterations: 4290000 explored: 1290532 ops: 53 updates: 96 pruning: 821143 jumped: 24011 bound: 5.3750486E8
+go loop - iterations: 4300000 explored: 1292304 ops: 50 updates: 96 pruning: 823485 jumped: 24023 bound: 5.3750486E8
+go loop - iterations: 4310000 explored: 1297120 ops: 45 updates: 96 pruning: 825629 jumped: 24092 bound: 5.3750486E8
+go loop - iterations: 4320000 explored: 1298511 ops: 52 updates: 96 pruning: 827963 jumped: 24103 bound: 5.3750486E8
+go loop - iterations: 4330000 explored: 1301301 ops: 31 updates: 96 pruning: 830271 jumped: 24147 bound: 5.3750486E8
+go loop - iterations: 4340000 explored: 1309426 ops: 52 updates: 96 pruning: 831946 jumped: 24347 bound: 5.3750486E8
+go loop - iterations: 4350000 explored: 1317923 ops: 47 updates: 96 pruning: 833133 jumped: 24663 bound: 5.3750486E8
+go loop - iterations: 4360000 explored: 1325686 ops: 51 updates: 96 pruning: 835358 jumped: 24675 bound: 5.3750486E8
+go loop - iterations: 4370000 explored: 1333702 ops: 49 updates: 96 pruning: 837227 jumped: 24790 bound: 5.3750486E8
+go loop - iterations: 4380000 explored: 1342217 ops: 48 updates: 96 pruning: 838390 jumped: 25112 bound: 5.3750486E8
+go loop - iterations: 4390000 explored: 1349973 ops: 48 updates: 96 pruning: 840622 jumped: 25124 bound: 5.3750486E8
+go loop - iterations: 4400000 explored: 1357975 ops: 48 updates: 96 pruning: 842511 jumped: 25233 bound: 5.3750486E8
+go loop - iterations: 4410000 explored: 1366496 ops: 45 updates: 96 pruning: 843670 jumped: 25553 bound: 5.3750486E8
+go loop - iterations: 4420000 explored: 1374268 ops: 49 updates: 96 pruning: 845878 jumped: 25573 bound: 5.3750486E8
+go loop - iterations: 4430000 explored: 1382259 ops: 50 updates: 96 pruning: 847734 jumped: 25726 bound: 5.3750486E8
+go loop - iterations: 4440000 explored: 1387987 ops: 50 updates: 96 pruning: 849840 jumped: 25840 bound: 5.3750486E8
+go loop - iterations: 4450000 explored: 1395689 ops: 48 updates: 96 pruning: 851516 jumped: 26095 bound: 5.3750486E8
+go loop - iterations: 4460000 explored: 1400894 ops: 34 updates: 96 pruning: 853871 jumped: 26116 bound: 5.3750486E8
+go loop - iterations: 4470000 explored: 1407671 ops: 42 updates: 96 pruning: 855840 jumped: 26292 bound: 5.3750486E8
+go loop - iterations: 4480000 explored: 1415801 ops: 39 updates: 96 pruning: 857568 jumped: 26434 bound: 5.3750486E8

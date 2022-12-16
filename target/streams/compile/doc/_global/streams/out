@@ -1,0 +1,38 @@
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/api...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /Users/mgomez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.1.3/scala3-sbt-bridge-3.1.3.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0mCalling Dottydoc with arguments  (ScaladocInterface):[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/api[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-project[0m
+[0m[[0m[0mdebug[0m] [0m[0m	plataformaBusqueda[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.1.3/scala3-library_3-3.1.3.jar:/Users/mgomez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_3/3.2.11/scalactic_3-3.2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/auxiliar/Action.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/auxiliar/ActionType.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/auxiliar/NodeID.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/base/AdjacencyMatrix.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/base/IDiagram.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/base/IDiagramPrueba.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/base/Link.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/base/Variable.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/base/VariableType.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/lector/Lector.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/search/base/ExploredSet.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/search/base/Fifo.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/search/base/Node.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/search/base/PriorityQueue.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/search/base/Solution.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/search/base/State.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/search/base/Utils.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/search/strategies/BreadthFirstSearch.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/search/strategies/DepthFirstSearch.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/search/strategies/DepthFirstSearchPlusExplored.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/search/strategies/UniformCostSearch.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/search/strategies/checks/BreadthFirstSearchCheck.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/search/strategies/checks/DepthFirstSearchCheck.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/search/strategies/checks/DepthFirstSearchPlusExploredCheck.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mgomez/ownCloud/desarrollo/infdiag/searchPlatform/target/scala-3.1.3/classes/search/strategies/checks/UniformCostSearchCheck.tasty[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m

@@ -1,0 +1,39 @@
+0 Prueba
+1 1 1 0 V1
+1 2 1 0 V2
+1 3 1 0 V3
+1 4 1 0 V4
+1 5 1 0 V5
+1 6 2 0 D1
+1 7 3 0 util
+2 V1 v11
+2 V1 v12
+2 V1 v13
+2 V2 v21
+2 V2 v22
+2 V3 v31
+2 V3 v32
+2 V3 v33
+2 V4 v41
+2 V4 v42
+2 V4 v43
+2 V4 v44
+2 V5 v51
+2 V5 v52
+2 V5 v53
+2 V5 v54
+2 V5 v55
+2 D1 d1
+2 D1 d2
+2 D1 d3
+2 D1 d4
+3 util V1
+3 util V2
+3 V4 V3
+3 V5 V3
+3 V1 V3
+3 D1 V4
+3 D1 V5
+3 V1 D1
+3 V2 D1
+3 util D1

@@ -1,0 +1,32 @@
+executing main.......
+kong evaluation: List(Action(DELETION,18,-1,1.0), Action(DELETION,9,-1,4.0), Action(DELETION,8,-1,11.0), Action(DELETION,17,-1,23.0), Action(DELETION,5,-1,50.0), Action(DELETION,2,-1,170.0), Action(DELETION,21,-1,530.0), Action(DELETION,19,-1,1403.0), Action(DELETION,20,-1,5295.0), Action(DELETION,11,-1,26036.0), Action(DELETION,12,-1,130796.0), Action(DELETION,15,-1,346796.0), Action(DELETION,16,-1,1383601.0), Action(DELETION,10,-1,7863607.0), Action(DELETION,22,-1,4.1559607E7), Action(DELETION,4,-1,1.34871607E8), Action(REVERSAL,4,10,3.1200247E7), Action(REVERSAL,4,12,269287.0), Action(REVERSAL,4,11,12407.0), Action(REVERSAL,4,2,9341.0), Action(REVERSAL,4,5,9293.0), Action(DELETION,13,-1,9271.0), Action(REVERSAL,13,2,26983.0), Action(REVERSAL,13,8,26857.0), Action(DELETION,14,-1,26854.0), Action(REVERSAL,14,2,106342.0), Action(REVERSAL,14,8,105982.0), Action(DELETION,7,-1,105968.0), Action(REVERSAL,7,2,529328.0), Action(REVERSAL,7,5,523320.0), Action(DELETION,1,-1,523317.0), Action(DELETION,3,-1,1041719.0), Action(REVERSAL,3,2,25079.0), Action(REVERSAL,3,8,4007.0), Action(NULL,-1,-1,2339.0))
+kong estimation: 1.34871607E8
+nodes: 23
+links: 34
+size: 2339.0
+go loop - frontier: 651 repeated: 314 frontier insertions: 1649
+go loop - frontier: 1319 repeated: 696 frontier insertions: 3317
+go loop - frontier: 1475 repeated: 1445 frontier insertions: 4473
+go loop - frontier: 1623 repeated: 2211 frontier insertions: 5621
+go loop - frontier: 1700 repeated: 3002 frontier insertions: 6698
+go loop - frontier: 1704 repeated: 3810 frontier insertions: 7702
+go loop - frontier: 1868 repeated: 4623 frontier insertions: 8866
+go loop - frontier: 1926 repeated: 5477 frontier insertions: 9924
+go loop - frontier: 1920 repeated: 6330 frontier insertions: 10918
+go loop - frontier: 1914 repeated: 7190 frontier insertions: 11912
+go loop - frontier: 2082 repeated: 7888 frontier insertions: 13080
+go loop - frontier: 2134 repeated: 8811 frontier insertions: 14132
+go loop - frontier: 2176 repeated: 9673 frontier insertions: 15174
+go loop - frontier: 2206 repeated: 10522 frontier insertions: 16204
+go loop - frontier: 2243 repeated: 11281 frontier insertions: 17241
+go loop - frontier: 2295 repeated: 12021 frontier insertions: 18293
+go loop - frontier: 2270 repeated: 12659 frontier insertions: 19268
+go loop - frontier: 2742 repeated: 12882 frontier insertions: 20740
+go loop - frontier: 2998 repeated: 13364 frontier insertions: 21996
+go loop - frontier: 3088 repeated: 13904 frontier insertions: 23086
+go loop - frontier: 3060 repeated: 14469 frontier insertions: 24058
+go loop - frontier: 3060 repeated: 14469 frontier insertions: 25058
+iterations: 22200
+go loop - frontier: 3114 repeated: 14550 frontier insertions: 25313
+max cost: 6490972.0
+result:  Solution(List(Action(REVERSAL,2,21,18794.0), Action(DELETION,2,-1,231170.0), Action(DELETION,1,-1,115968.0), Action(DELETION,13,-1,39165.0), Action(DELETION,14,-1,10361.0), Action(REVERSAL,3,21,11009.0), Action(DELETION,3,-1,7889.0), Action(REVERSAL,7,5,7892.0), Action(REVERSAL,7,21,8104.0), Action(DELETION,7,-1,1984.0), Action(REVERSAL,5,21,1994.0), Action(DELETION,5,-1,842.0), Action(REVERSAL,4,21,845.0), Action(REVERSAL,4,11,1202.0), Action(REVERSAL,4,12,33172.0), Action(REVERSAL,4,10,3899332.0), Action(DELETION,4,-1,6490972.0), Action(DELETION,22,-1,2602972.0), Action(DELETION,10,-1,334972.0), Action(DELETION,12,-1,162172.0), Action(DELETION,16,-1,27166.0), Action(DELETION,18,-1,13664.0), Action(DELETION,19,-1,3535.0), Action(DELETION,15,-1,830.0), Action(DELETION,11,-1,155.0), Action(DELETION,21,-1,56.0), Action(DELETION,20,-1,15.0), Action(DELETION,17,-1,6.0), Action(DELETION,9,-1,1.0)))
